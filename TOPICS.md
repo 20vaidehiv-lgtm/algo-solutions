@@ -55,7 +55,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Jump Game II | python | [practice334.py](solutions/python/practice334.py) | Incomplete Header (Note or Topic (missing)) |
 | Koko Eating Bananas | python | [practice436.py](solutions/python/practice436.py) | In Progress / Needs Work |
 | Largest Local Values in a Matrix | python | [practice151.py](solutions/python/practice151.py) | Complete |
-| Longest Consecutive Sequence | cpp | [practice5.cpp](solutions/cpp/practice5.cpp) | In Progress / Needs Work |
+| Longest Consecutive Sequence | cpp | [practice5.cpp](solutions/cpp/practice5.cpp) | Complete |
 | Longest Subarray with Sum K | python | [practice349.py](solutions/python/practice349.py) | Complete |
 | Longest Subarray with Sum K | python | [practice406.py](solutions/python/practice406.py) | Complete |
 | Longest Subarray With Sum Less Than or Equal to S | python | [practice140.py](solutions/python/practice140.py) | Incomplete Header (Source (blank)) |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 143
+**Total needing attention:** 142
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -649,7 +649,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Rotate List by N Steps | python | [practice47.py](solutions/python/practice47.py) | Incomplete Header (Source (blank)) |
 | String Unscrambling | python | [practice48.py](solutions/python/practice48.py) | Incomplete Header (Source (blank)) |
 | Singly Linked List Implementation | python | [practice49.py](solutions/python/practice49.py) | Incomplete Header (Source (blank)) |
-| Longest Consecutive Sequence | cpp | [practice5.cpp](solutions/cpp/practice5.cpp) | In Progress / Needs Work |
 | Binary Search | java | [practice5.java](solutions/java/practice5.java) | In Progress / Needs Work |
 | Average Without Min and Max | python | [practice54.py](solutions/python/practice54.py) | Incomplete Header (Source (blank)) |
 | Number Power Sum | python | [practice56.py](solutions/python/practice56.py) | Incomplete Header (Source (blank)) |
