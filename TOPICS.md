@@ -91,7 +91,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Product of Array Except Self | python | [practice111.py](solutions/python/practice111.py) | Complete |
 | Pyramid Array | python | [practice220.py](solutions/python/practice220.py) | Complete |
 | Range Sum of BST | python | [practice184.py](solutions/python/practice184.py) | Complete |
-| Rank Elements in an Array | python | [practice113.py](solutions/python/practice113.py) | Incomplete Header (Note or Topic (missing)) |
+| Rank Elements in an Array | python | [practice113.py](solutions/python/practice113.py) | Complete |
 | Rank Transform of an Array | python | [practice16.py](solutions/python/practice16.py) | Complete |
 | Rank Transform of an Array | python | [practice342.py](solutions/python/practice342.py) | Complete |
 | Remove Duplicates from Sorted Array | python | [practice135.py](solutions/python/practice135.py) | Incomplete Header (Note or Topic (missing)) |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 145
+**Total needing attention:** 144
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -543,7 +543,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Calculate Percentage of Letter in String | python | [practice102.py](solutions/python/practice102.py) | Incomplete Header (Note or Topic (missing)) |
 | Count Numbers with Unique Digits | python | [practice103.py](solutions/python/practice103.py) | Incomplete Header (Note or Topic (missing)) |
 | Multiply Two Strings | python | [practice104.py](solutions/python/practice104.py) | Incomplete Header (Note or Topic (missing)) |
-| Rank Elements in an Array | python | [practice113.py](solutions/python/practice113.py) | Incomplete Header (Note or Topic (missing)) |
 | Check If All A's Appears Before All B's | python | [practice114.py](solutions/python/practice114.py) | Incomplete Header (Note or Topic (missing)) |
 | Most Frequent Even Element | python | [practice115.py](solutions/python/practice115.py) | Incomplete Header (Note or Topic (missing)) |
 | First Letter to Appear Twice | python | [practice116.py](solutions/python/practice116.py) | Incomplete Header (Note or Topic (missing)) |
