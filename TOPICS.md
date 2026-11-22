@@ -80,7 +80,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Minimum Average of Smallest and Largest Elements | python | [practice303.py](solutions/python/practice303.py) | Complete |
 | Minimum Distance to the Target Element | python | [practice293.py](solutions/python/practice293.py) | Complete |
 | Most Frequent Even Element | python | [practice115.py](solutions/python/practice115.py) | Incomplete Header (Note or Topic (missing)) |
-| Move Zeroes | cpp | [practice3.cpp](solutions/cpp/practice3.cpp) | In Progress / Needs Work |
+| Move Zeroes | cpp | [practice3.cpp](solutions/cpp/practice3.cpp) | Complete |
 | Next Greater Element I | python | [practice181.py](solutions/python/practice181.py) | Incomplete Header (Note or Topic (missing)) |
 | Next Greater Element I | python | [practice266.py](solutions/python/practice266.py) | Complete |
 | Non-unique Elements | python | [practice55.py](solutions/python/practice55.py) | Complete |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 141
+**Total needing attention:** 140
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -576,7 +576,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Coin Change (Minimum Coins) | python | [practice254.py](solutions/python/practice254.py) | Incomplete Header (Note or Topic (missing)) |
 | Binary Palindrome | python | [practice27.py](solutions/python/practice27.py) | Incomplete Header (Source (blank)) |
 | Punctuation Score | python | [practice284.py](solutions/python/practice284.py) | Incomplete Header (Source (blank)) |
-| Move Zeroes | cpp | [practice3.cpp](solutions/cpp/practice3.cpp) | In Progress / Needs Work |
 | Cable Connection Optimization | python | [practice3.py](solutions/python/practice3.py) | Incomplete Header (Source (blank)) |
 | Not In Place | python | [practice308.py](solutions/python/practice308.py) | Incomplete Header (Source (blank)) |
 | Generate Palindrome ASCII | python | [practice31.py](solutions/python/practice31.py) | Incomplete Header (Source (blank)) |
