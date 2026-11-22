@@ -294,7 +294,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Character Percentage in String | python | [practice43.py](solutions/python/practice43.py) | Complete |
 | Character Triangle Pattern | python | [practice79.py](solutions/python/practice79.py) | Incomplete Header (Source (blank)) |
 | Character Year Count Mapping | python | [practice237.py](solutions/python/practice237.py) | Incomplete Header (Source (blank)) |
-| Common Child | python | [practice437.py](solutions/python/practice437.py) | In Progress / Needs Work |
+| Common Child | python | [practice437.py](solutions/python/practice437.py) | Complete |
 | Common Words | python | [practice396.py](solutions/python/practice396.py) | Complete |
 | Compress the String! | python | [practice206.py](solutions/python/practice206.py) | Complete |
 | Consonant value | python | [practice230.py](solutions/python/practice230.py) | Complete |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 144
+**Total needing attention:** 143
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -644,7 +644,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Minimum Number of Jumps | python | [practice433.py](solutions/python/practice433.py) | In Progress / Needs Work |
 | Koko Eating Bananas | python | [practice436.py](solutions/python/practice436.py) | In Progress / Needs Work |
-| Common Child | python | [practice437.py](solutions/python/practice437.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
 | Stock Span Problem | python | [practice440.py](solutions/python/practice440.py) | In Progress / Needs Work |
 | Rotate List by N Steps | python | [practice47.py](solutions/python/practice47.py) | Incomplete Header (Source (blank)) |
