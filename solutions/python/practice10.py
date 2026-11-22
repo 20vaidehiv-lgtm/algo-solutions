@@ -20,6 +20,7 @@
 # Status: ✅ SOLVED
 
 def first_letter_twice(s):
+    """Return the first character that appears twice in the string."""
     if not s:
         return None
     
