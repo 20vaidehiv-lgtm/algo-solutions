@@ -5,6 +5,7 @@
 
 from collections import Counter
 def sort_characters_by_frequency(s):
+    """Return string s with characters sorted by descending frequency and ascending alphabetical order."""
 
     freq = Counter(s)
     
