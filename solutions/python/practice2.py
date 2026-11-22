@@ -17,6 +17,7 @@
 # Status: ✅ SOLVED
 
 def maxSubArray(nums):
+    """Return the maximum sum of a contiguous subarray in nums."""
     if not nums:
         return 0
     
