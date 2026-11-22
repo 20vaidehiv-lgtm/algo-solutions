@@ -190,8 +190,8 @@
     "problem": "Rank Elements in an Array",
     "source": "https://leetcode.com/problems/rank-transform-of-an-array/",
     "topics": [
-      "Sorting",
-      "Arrays"
+      "Array",
+      "Sorting"
     ],
     "path": "solutions/python/practice113.py"
   },
