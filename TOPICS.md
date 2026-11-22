@@ -341,7 +341,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Palindrome Number | python | [practice417.py](solutions/python/practice417.py) | Incomplete Header (Note or Topic (missing)) |
 | Permutation Difference between Two Strings | python | [practice147.py](solutions/python/practice147.py) | Complete |
 | Remove Outermost Parentheses | python | [practice164.py](solutions/python/practice164.py) | Complete |
-| Remove the parentheses | python | [practice420.py](solutions/python/practice420.py) | Incomplete Header (Note (blank), Note or Topic (missing)) |
+| Remove the parentheses | python | [practice420.py](solutions/python/practice420.py) | Complete |
 | Remove Trailing Zeros From a String | python | [practice319.py](solutions/python/practice319.py) | Complete |
 | Repeated String | python | [practice283.py](solutions/python/practice283.py) | Complete |
 | Replace All Digits with Characters | python | [practice90.py](solutions/python/practice90.py) | Complete |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 142
+**Total needing attention:** 141
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -635,7 +635,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Rank Records | python | [practice418.py](solutions/python/practice418.py) | Incomplete Header (Source (blank)) |
 | Sum of Even and Odd Numbers | python | [practice419.py](solutions/python/practice419.py) | Incomplete Header (Source (blank)) |
 | Sum of Multiples of 3 and 5 | python | [practice42.py](solutions/python/practice42.py) | Incomplete Header (Source (blank)) |
-| Remove the parentheses | python | [practice420.py](solutions/python/practice420.py) | Incomplete Header (Note (blank), Note or Topic (missing)) |
 | Zigzag Conversion | python | [practice422.py](solutions/python/practice422.py) | In Progress / Needs Work |
 | Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | In Progress / Needs Work |
 | Minimum Window Substring | python | [practice425.py](solutions/python/practice425.py) | In Progress / Needs Work |
