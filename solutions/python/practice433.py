@@ -1,7 +1,7 @@
 # Problem: Minimum Number of Jumps
 # Source: https://www.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1
 # Topic: Dynamic Programming, Greedy
-# Status: IN PROGRESS
+# Status: ✅ Done
 
 def min_jumps(arr):
     n = len(arr)
