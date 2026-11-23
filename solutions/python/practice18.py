@@ -21,6 +21,7 @@
 # Status: ✅ SOLVED
 
 def uniquePathsWithObstacles(obstacleGrid):
+    """Return the number of unique paths from the top-left to the bottom-right while avoiding obstacles."""
     if not obstacleGrid or not obstacleGrid[0]:
         return 0
     

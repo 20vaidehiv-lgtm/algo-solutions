@@ -27,6 +27,7 @@
 # Status: ✅ SOLVED
 
 def isNumber(s):
+    """Check whether a string represents a valid decimal or scientific number."""
     # Remove leading and trailing whitespace
     s = s.strip()
     
@@ -43,6 +44,7 @@ def isNumber(s):
     return isDecimal(s)
 
 def isDecimal(s):
+    """Check whether a string represents a valid decimal number with an optional sign."""
     if not s:
         return False
     
@@ -78,6 +80,7 @@ def isDecimal(s):
     return False
 
 def isInteger(s):
+    """Check whether a string contains a valid integer with an optional sign."""
     if not s:
         return False
     

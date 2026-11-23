@@ -19,6 +19,7 @@
 # Status: ✅ SOLVED
 
 def rankTransformArray(arr):
+    """Replace each array element with its rank while assigning equal values the same rank."""
     if not arr:
         return []
     

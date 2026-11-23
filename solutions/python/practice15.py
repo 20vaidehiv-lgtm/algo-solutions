@@ -18,6 +18,7 @@
 # Status: ✅ SOLVED
 
 def uniquePaths(m, n):
+    """Return the total number of unique paths in an m x n grid."""
     # Create a DP table
     dp = [[1] * n for _ in range(m)]
     
