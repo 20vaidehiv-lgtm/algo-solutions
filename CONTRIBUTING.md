@@ -8,8 +8,11 @@ This project is **open to everyone**: complete beginners, students, experienced 
 
 ## New to Open Source?
 
-If you have never opened a Pull Request (PR) before, don't worry! Here are two great resources to walk you through the basics:
-- **Interactive Guide:** [First Contributions](https://github.com/firstcontributions/first-contributions)
+If you have never used Git or GitHub before, read this first:
+
+- **[Getting Started Guide](docs/GETTING_STARTED.md)**: a step-by-step walkthrough written for complete beginners. It covers installing Git, creating a GitHub account, forking, cloning, branching, committing, pushing, and opening your first Pull Request. No prior experience needed.
+
+If you prefer to watch instead of read:
 - **Video Walkthrough:** [How to contribute on GitHub (YouTube)](https://youtu.be/WldXhauP024?si=9u5wErqvnz9ZZRAv)
 
 ---
