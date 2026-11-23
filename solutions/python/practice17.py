@@ -14,6 +14,7 @@
 # Status: ✅ SOLVED
 
 def isPalindrome1(n):
+    """Check whether an integer is a palindrome by reversing its digits."""
     if n < 0:
         return False
         
@@ -25,6 +26,7 @@ def isPalindrome1(n):
     return extracted_n == extracted_n[::-1]
 
 def isPalindrome2(n):
+    """Check whether an integer is a palindrome by comparing its string representation."""
     if n < 0:
         return False
         
