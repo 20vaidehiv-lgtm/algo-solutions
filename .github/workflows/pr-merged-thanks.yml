@@ -67,13 +67,58 @@ jobs:
               return;
             }
 
+            let contributorCountStr = "";
+            try {
+              const resp = await github.rest.repos.listContributors({
+                owner,
+                repo,
+                per_page: 1,
+                anon: 'false'
+              });
+              const link = resp.headers.link;
+              if (link) {
+                const match = link.match(/page=(\d+)>; rel="last"/);
+                if (match) {
+                  contributorCountStr = `our ${match[1]} `;
+                }
+              }
+            } catch (err) {
+              console.log("Could not fetch contributor count:", err.message);
+            }
+
+            const body = [
+              `### 🎉 Congratulations @${author}, your contribution has been merged!`,
+              ``,
+              `You are officially one of ${contributorCountStr}contributors. Your avatar is now in the [Contributors Section](https://github.com/${owner}/${repo}#contributors) on our README.`,
+              ``,
+              `---`,
+              ``,
+              `### What you can do next:`,
+              ``,
+              `* **Support the project:** If you enjoyed contributing, please consider giving [${repo}](https://github.com/${owner}/${repo}) a star ⭐ on GitHub. It helps other beginners find the project:`,
+              `<a href="https://github.com/${owner}/${repo}"><img width="415" height="57" alt="Star repository" src="https://github.com/user-attachments/assets/56ffafe0-d2c4-49de-a39a-af3225b2262f" /></a>`,
+              ``,
+              `* **Tackle another problem:** Pick an open task from [\`good first issues\`](https://github.com/${owner}/${repo}/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) or explore [Solutions Needing Attention](https://github.com/${owner}/${repo}/blob/main/TOPICS.md#solutions-needing-attention).`,
+              `* **Translate a solution:** Know another language like JavaScript, Go, C++, or Rust? Port an existing Python solution over.`,
+              ``,
+              `---`,
+              ``,
+              `### Share your milestone!`,
+              `Let your network know you contributed to open source:`,
+              ``,
+              `- [Share on LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fgithub.com%2F${owner}%2F${repo})`,
+              `- [Post on X / Twitter](https://twitter.com/intent/tweet?text=I%20just%20made%20an%20open%20source%20contribution%20to%20${repo}!%20Check%20it%20out%20and%20grab%20your%20own%20first%20issue%20here%3A%20https%3A%2F%2Fgithub.com%2F${owner}%2F${repo}%20%23OpenSource%20%23Coding)`,
+              `- [Post on Bluesky](https://bsky.app/intent/compose?text=I%20just%20contributed%20to%20${repo}!%20Check%20out%20the%20repo%20and%20find%20a%20beginner%20issue%3A%20https%3A%2F%2Fgithub.com%2F${owner}%2F${repo})`,
+              `- [Share on Reddit](https://www.reddit.com/submit?url=https%3A%2F%2Fgithub.com%2F${owner}%2F${repo}&title=I%20just%20made%20an%20open%20source%20contribution%20to%20${repo})`,
+              ``,
+              `Thank you for helping grow the repository.`,
+              ``,
+              `<img width="547" height="365" alt="Thank you" src="https://github.com/user-attachments/assets/4cdeb399-fc2c-40d5-9981-17f3c28bb537" />`
+            ].join('\n');
+
             await github.rest.issues.createComment({
               owner,
               repo,
               issue_number: pr,
-              body: [
-                `@${author} thank you for your first contribution! Appreciated a lot.`,
-                ``,
-                `Your avatar is now in the [contributors section](https://github.com/${owner}/${repo}#contributors). The README updates automatically after every merge.`
-              ].join('\n')
+              body: body
             });
