@@ -332,7 +332,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Longest Substring Without Repeating Characters | python | [practice64.py](solutions/python/practice64.py) | Complete |
 | Maximum Number of Words Found in Sentences | python | [practice187.py](solutions/python/practice187.py) | Complete |
 | Maximum Substrings With Distinct Start | python | [practice136.py](solutions/python/practice136.py) | Complete |
-| Minimum Window Substring | python | [practice425.py](solutions/python/practice425.py) | In Progress / Needs Work |
+| Minimum Window Substring | python | [practice425.py](solutions/python/practice425.py) | Complete |
 | Most frequently used words in a text | python | [practice391.py](solutions/python/practice391.py) | Incomplete Header (Note or Topic (missing)) |
 | Multiply Strings | python | [practice311.py](solutions/python/practice311.py) | Complete |
 | Multiply Two Strings | python | [practice104.py](solutions/python/practice104.py) | Incomplete Header (Note or Topic (missing)) |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 136
+**Total needing attention:** 135
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -637,7 +637,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Sum of Multiples of 3 and 5 | python | [practice42.py](solutions/python/practice42.py) | Incomplete Header (Source (blank)) |
 | Zigzag Conversion | python | [practice422.py](solutions/python/practice422.py) | In Progress / Needs Work |
 | Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | In Progress / Needs Work |
-| Minimum Window Substring | python | [practice425.py](solutions/python/practice425.py) | In Progress / Needs Work |
 | Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
