@@ -1,7 +1,7 @@
 # Problem: Serialize and Deserialize Binary Tree
 # Source: https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
 # Topic: Tree, BFS, String
-# Status: IN PROGRESS
+# Status: ✅ Done
 
 from collections import deque
 
@@ -29,5 +29,21 @@ class Codec:
         return ",".join(result)
 
     def deserialize(self, data):
-        # TODO: implement BFS deserialization
-        pass
+        # BFS level-order deserialization, the inverse of serialize
+        vals = data.split(",")
+        if vals[0] == "null":
+            return None
+        root = TreeNode(int(vals[0]))
+        q = deque([root])
+        i = 1
+        while q and i < len(vals):
+            node = q.popleft()
+            if vals[i] != "null":
+                node.left = TreeNode(int(vals[i]))
+                q.append(node.left)
+            i += 1
+            if i < len(vals) and vals[i] != "null":
+                node.right = TreeNode(int(vals[i]))
+                q.append(node.right)
+            i += 1
+        return root
