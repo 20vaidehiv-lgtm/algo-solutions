@@ -212,7 +212,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Left and Right Sum Differences | python | [practice145.py](solutions/python/practice145.py) | Complete |
 | Maximum 69 Number | python | [practice323.py](solutions/python/practice323.py) | Incomplete Header (Note or Topic (missing)) |
 | Minimum Bit Flips to Convert Number | python | [practice183.py](solutions/python/practice183.py) | Complete |
-| Minimum Number of Jumps | python | [practice433.py](solutions/python/practice433.py) | In Progress / Needs Work |
+| Minimum Number of Jumps | python | [practice433.py](solutions/python/practice433.py) | Complete |
 | Minimum Operations to Make Integers Divisible by 3 | python | [practice93.py](solutions/python/practice93.py) | Incomplete Header (Note or Topic (missing)) |
 | Minimum Operations to Reduce Number to One | python | [practice105.py](solutions/python/practice105.py) | Complete |
 | Minimum Path Sum | python | [practice19.py](solutions/python/practice19.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 140
+**Total needing attention:** 139
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -641,7 +641,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Serialize and Deserialize Binary Tree | python | [practice427.py](solutions/python/practice427.py) | In Progress / Needs Work |
 | Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
-| Minimum Number of Jumps | python | [practice433.py](solutions/python/practice433.py) | In Progress / Needs Work |
 | Koko Eating Bananas | python | [practice436.py](solutions/python/practice436.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
 | Stock Span Problem | python | [practice440.py](solutions/python/practice440.py) | In Progress / Needs Work |
