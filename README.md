@@ -46,7 +46,7 @@ This repo is **open for everyone**. Any language, any level, no experience requi
 
 **New to open source? Start here before anything else:**
 
-**[First Contributions - github.com/firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)**
+**[Getting Started Guide](https://github.com/Huerte/algo-solutions/blob/main/docs/GETTING_STARTED.md)**
 
 Prefer video? Watch this: [How to contribute on GitHub (YouTube)](https://youtu.be/WldXhauP024?si=9u5wErqvnz9ZZRAv)
 
