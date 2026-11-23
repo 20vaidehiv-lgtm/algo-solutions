@@ -20,6 +20,7 @@
 
 class Solution(object):
     def reverseStr(self, s, k):
+        """Reverse the first k characters in every 2k characters of the given string."""
         s_list = list(s)
         n = len(s_list)
         

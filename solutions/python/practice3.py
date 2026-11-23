@@ -16,6 +16,7 @@
 # Status: ✅ SOLVED
 
 def calculate_cable_length(coordinates):
+    """Calculate the minimum horizontal cable length required to span all given coordinates"""
     if not coordinates:
         return 0
     
