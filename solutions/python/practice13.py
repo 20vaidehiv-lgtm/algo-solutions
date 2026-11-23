@@ -17,6 +17,7 @@
 # Status: ✅ SOLVED
 
 def getPermutation(n, k):
+    """Return the kth lexicographically ordered permutation of numbers from 1 to n."""
     # Calculate factorial for each number
     factorial = [1] * (n + 1)
     for i in range(1, n + 1):

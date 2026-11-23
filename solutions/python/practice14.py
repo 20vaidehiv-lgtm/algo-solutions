@@ -22,6 +22,7 @@ class ListNode:
         self.next = next
 
 def rotateRight(head, k):
+    """Rotate a linked list to the right by k positions and return its new head."""
     if not head or not head.next or k == 0:
         return head
     
@@ -50,6 +51,7 @@ def rotateRight(head, k):
 
 # Helper function to create linked list from array
 def createLinkedList(arr):
+    """Create and return a linked list from the given array."""
     if not arr:
         return None
     head = ListNode(arr[0])
@@ -61,6 +63,7 @@ def createLinkedList(arr):
 
 # Helper function to convert linked list to array
 def linkedListToArray(head):
+    """Convert a linked list into an array and return its values."""
     result = []
     current = head
     while current:
