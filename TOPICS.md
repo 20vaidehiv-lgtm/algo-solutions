@@ -350,7 +350,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Reverse Integer | python | [practice28.py](solutions/python/practice28.py) | Complete |
 | Reverse String II | python | [practice12.py](solutions/python/practice12.py) | Complete |
 | Roman Numerals Decoder | python | [practice214.py](solutions/python/practice214.py) | Complete |
-| Serialize and Deserialize Binary Tree | python | [practice427.py](solutions/python/practice427.py) | In Progress / Needs Work |
+| Serialize and Deserialize Binary Tree | python | [practice427.py](solutions/python/practice427.py) | Complete |
 | Shuffle String | python | [practice159.py](solutions/python/practice159.py) | Complete |
 | Sort Characters By Frequency | python | [practice119.py](solutions/python/practice119.py) | Complete |
 | Split a String in Balanced Strings | python | [practice156.py](solutions/python/practice156.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 138
+**Total needing attention:** 137
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -638,7 +638,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Zigzag Conversion | python | [practice422.py](solutions/python/practice422.py) | In Progress / Needs Work |
 | Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | In Progress / Needs Work |
 | Minimum Window Substring | python | [practice425.py](solutions/python/practice425.py) | In Progress / Needs Work |
-| Serialize and Deserialize Binary Tree | python | [practice427.py](solutions/python/practice427.py) | In Progress / Needs Work |
 | Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
