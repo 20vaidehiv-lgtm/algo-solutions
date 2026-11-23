@@ -266,7 +266,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Counting Sort 1 | python | [practice384.py](solutions/python/practice384.py) | Incomplete Header (Note or Topic (missing)) |
 | Merge k Sorted Lists | python | [practice429.py](solutions/python/practice429.py) | Complete |
 | Merge Two Sorted Lists | python | [practice38.py](solutions/python/practice38.py) | Complete |
-| Merge Two Sorted Lists | java | [practice7.java](solutions/java/practice7.java) | In Progress / Needs Work |
+| Merge Two Sorted Lists | java | [practice7.java](solutions/java/practice7.java) | Complete |
 | Print in Order | python | [practice329.py](solutions/python/practice329.py) | Incomplete Header (Note or Topic (missing)) |
 | Rank Records | python | [practice418.py](solutions/python/practice418.py) | Incomplete Header (Source (blank)) |
 | Relative Ranks | python | [practice226.py](solutions/python/practice226.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 137
+**Total needing attention:** 136
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -655,7 +655,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Filter Strings by Substring | python | [practice67.py](solutions/python/practice67.py) | Incomplete Header (Source (blank)) |
 | Fibonacci Sequence Generator | python | [practice68.py](solutions/python/practice68.py) | Incomplete Header (Source (blank)) |
 | String Jump Decoder | python | [practice69.py](solutions/python/practice69.py) | Incomplete Header (Source (blank)) |
-| Merge Two Sorted Lists | java | [practice7.java](solutions/java/practice7.java) | In Progress / Needs Work |
 | Merge Intervals | javascript | [practice7.js](solutions/javascript/practice7.js) | In Progress / Needs Work |
 | Most Frequent Even Number | python | [practice70.py](solutions/python/practice70.py) | Incomplete Header (Source (blank)) |
 | Time Limit Validator | python | [practice77.py](solutions/python/practice77.py) | Incomplete Header (Source (blank)) |
