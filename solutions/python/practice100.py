@@ -8,7 +8,9 @@
 
 # Then, Time Complexity become O(d), where d is the number of digits in the integer.
 
-n = int(input('Enter an integer: '))
+def is_same_after_double_reversal(n):
+    """Checks whether an integer remains the same after reversing its digits twice."""
+    n = int(input('Enter an integer: '))
 temp = n
 for i in range(2):
     temp = int(str(temp)[::-1])

@@ -18,6 +18,7 @@
 # Status: ✅ SOLVED
 
 def canJump(nums):
+    """Return True if you can reach the last index, or False otherwise."""
     if not nums:
         return False
     

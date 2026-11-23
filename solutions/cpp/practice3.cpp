@@ -1,25 +1,24 @@
 // Problem: Move Zeroes
 // Source: https://leetcode.com/problems/move-zeroes/
 // Topic: Two Pointers, Arrays
-// Status: IN PROGRESS
+// Status: Done
 
-#include <iostream>
-#include <vector>
 #include <cassert>
+#include <vector>
 
 using namespace std;
 
 void moveZeroes(vector<int>& nums) {
     int insertPos = 0;
 
-    for (int i = 0; i < static_cast<int>(nums.size()); i++) {
-        if (nums[i] != 0) {
-            nums[insertPos++] = nums[i];
+    for (int num : nums) {
+        if (num != 0) {
+            nums[insertPos++] = num;
         }
     }
 
-    for (int i = insertPos + 1; i < static_cast<int>(nums.size()); i++) {
-        nums[i] = 0;
+    while (insertPos < static_cast<int>(nums.size())) {
+        nums[insertPos++] = 0;
     }
 }
 
@@ -32,6 +31,21 @@ int main() {
     moveZeroes(nums2);
     assert((nums2 == vector<int>{0}));
 
+    vector<int> nums3 = {};
+    moveZeroes(nums3);
+    assert(nums3.empty());
+
+    vector<int> nums4 = {1, 2, 3};
+    moveZeroes(nums4);
+    assert((nums4 == vector<int>{1, 2, 3}));
+
+    vector<int> nums5 = {0, 0, 0};
+    moveZeroes(nums5);
+    assert((nums5 == vector<int>{0, 0, 0}));
+
+    vector<int> nums6 = {1, 0, 2, 0, 3, 0};
+    moveZeroes(nums6);
+    assert((nums6 == vector<int>{1, 2, 3, 0, 0, 0}));
+
     return 0;
 }
-
