@@ -1,7 +1,7 @@
 # Problem: Minimum Window Substring
 # Source: https://leetcode.com/problems/minimum-window-substring/
 # Topic: Sliding Window, Hash Map
-# Status: IN PROGRESS
+# Status: ✅ Done
 
 def min_window(s, t):
     if not s or not t:
@@ -30,7 +30,7 @@ def min_window(s, t):
                 ans = (right - left + 1, left, right)
             lc = s[left]
             window[lc] -= 1
-            if lc in need and window[lc] == need[lc]:
+            if lc in need and window[lc] < need[lc]:
                 formed -= 1
             left += 1
 
