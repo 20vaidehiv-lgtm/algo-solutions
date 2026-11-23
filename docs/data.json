@@ -5201,6 +5201,17 @@
     "path": "solutions/cpp/practice6.cpp"
   },
   {
+    "name": "practice9",
+    "language": "cpp",
+    "filename": "practice9.cpp",
+    "problem": "Length of Last Word",
+    "source": "https://leetcode.com/problems/length-of-last-word/",
+    "topics": [
+      "strings"
+    ],
+    "path": "solutions/cpp/practice9.cpp"
+  },
+  {
     "name": "practice1",
     "language": "java",
     "filename": "practice1.java",
