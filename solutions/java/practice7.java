@@ -1,7 +1,7 @@
 // Problem: Merge Two Sorted Lists
 // Source: https://leetcode.com/problems/merge-two-sorted-lists/
 // Topic: Linked List
-// Status: IN PROGRESS
+// Status: ✅ Done
 
 class ListNode {
     int val;
@@ -13,8 +13,21 @@ class ListNode {
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        // TODO: implement iterative merge with dummy head
-        return null;
+        // Iterative merge using a dummy head node
+        ListNode dummy = new ListNode();
+        ListNode tail = dummy;
+        while (list1 != null && list2 != null) {
+            if (list1.val <= list2.val) {
+                tail.next = list1;
+                list1 = list1.next;
+            } else {
+                tail.next = list2;
+                list2 = list2.next;
+            }
+            tail = tail.next;
+        }
+        tail.next = (list1 != null) ? list1 : list2;
+        return dummy.next;
     }
 }
 
