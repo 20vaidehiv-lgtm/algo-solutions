@@ -121,7 +121,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Spiral Matrix II | python | [practice340.py](solutions/python/practice340.py) | Incomplete Header (Note or Topic (missing)) |
 | Split the Array | python | [practice321.py](solutions/python/practice321.py) | Complete |
 | Squares of a Sorted Array | python | [practice180.py](solutions/python/practice180.py) | Complete |
-| Stock Span Problem | python | [practice440.py](solutions/python/practice440.py) | In Progress / Needs Work |
+| Stock Span Problem | python | [practice440.py](solutions/python/practice440.py) | Complete |
 | Subarray Division (Birthday Chocolate) | python | [practice285.py](solutions/python/practice285.py) | Complete |
 | Subarray Sum Equals K | python | [practice165.py](solutions/python/practice165.py) | Complete |
 | Sum of All Odd Length Subarrays | python | [practice305.py](solutions/python/practice305.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 132
+**Total needing attention:** 131
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -637,7 +637,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
-| Stock Span Problem | python | [practice440.py](solutions/python/practice440.py) | In Progress / Needs Work |
 | Rotate List by N Steps | python | [practice47.py](solutions/python/practice47.py) | Incomplete Header (Source (blank)) |
 | String Unscrambling | python | [practice48.py](solutions/python/practice48.py) | Incomplete Header (Source (blank)) |
 | Singly Linked List Implementation | python | [practice49.py](solutions/python/practice49.py) | Incomplete Header (Source (blank)) |
