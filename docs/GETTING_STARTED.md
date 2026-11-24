@@ -207,14 +207,24 @@ Forking creates your own personal copy of the project on GitHub.
 
 3. Look near the top-right of the page, just below the main navigation bar. You will see three buttons: **Watch**, **Fork**, and **Star**. Click **Fork**.
 
+   ![Fork button](screenshots/ForkButton.png)
+
 4. A new page will appear titled "Create a new fork". You will see your username already selected under "Owner". Leave everything as it is.
 
+   ![Fork creating page](screenshots/ForkPage.png)
+
 5. Click the green **Create fork** button at the bottom.
+
+   ![Fork button](screenshots/CreateForkButton.png)
 
 6. GitHub will take a few seconds to create your fork. When it is done, you will be taken to a new page. The address in your browser will now say something like:
    ```
    https://github.com/your-username/algo-solutions
    ```
+   ![Forked Repo](screenshots/ForkedCopiedandURL.png)
+
+   You can also see it under the repo name as "forked from Huerte/algo-solutions".
+
    That is your fork. It is your copy.
 
 ---
@@ -227,14 +237,21 @@ This step is called "cloning." It downloads all the files from your fork onto yo
 
 2. Find the green button that says **Code** and click it. A small box will appear with a web address inside it.
 
+   ![Code Button](screenshots/CodeButton.png)
+
+
 3. Inside that box, make sure the tab that says **HTTPS** is selected (it is usually selected by default). The address will look like this:
    ```
    https://github.com/your-username/algo-solutions.git
    ```
+   ![HTTPS Copy box](screenshots/URLDisplay.png)
 
 4. Click the **copy icon** next to the address (it looks like two overlapping squares). The address is now copied to your clipboard.
 
+   ![Copy URL](screenshots/CopyURL.png)
+
 5. Open your terminal (Git Bash on Windows, Terminal on Mac or Linux).
+
 
 6. You need to decide where on your computer you want to save the project folder. The Desktop is a good choice if you are unsure. Type this command to go to your Desktop, then press **Enter**:
    ```
@@ -242,18 +259,26 @@ This step is called "cloning." It downloads all the files from your fork onto yo
    ```
    > `cd` stands for "change directory." A directory is the same thing as a folder. This command moves you into the Desktop folder.
 
+
+
 7. Now type `git clone ` (with a space at the end), then paste the address you copied in step 4. The full command will look like this:
    ```
    git clone https://github.com/your-username/algo-solutions.git
    ```
    Press **Enter**.
 
+   ![Terminal before](screenshots/TerminalBefore.png)
+
 8. Git will download the files. You will see lines of text appearing. Wait until it finishes and shows a new line ready for input.
+
+   ![Terminal After](screenshots/TerminalAfter.png)
 
 9. Now move into the downloaded folder by typing this command and pressing **Enter**:
    ```
    cd algo-solutions
    ```
+
+   ![Moving to algo-solutions](screenshots/TerminalFolderMove.png)
 
 You are now inside the project folder on your computer. Any git commands you type from here will work on this project.
 
