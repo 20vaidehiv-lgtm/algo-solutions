@@ -320,7 +320,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Integer to Roman | python | [practice26.py](solutions/python/practice26.py) | Complete |
 | Integer to Roman | python | [practice398.py](solutions/python/practice398.py) | Incomplete Header (Note or Topic (missing)) |
 | Keypad Phone Simulator | python | [practice122.py](solutions/python/practice122.py) | Incomplete Header (Source (blank)) |
-| Length of Last Word | python | [practice128.py](solutions/python/practice128.py) | Incomplete Header (Note or Topic (missing)) |
+| Length of Last Word | python | [practice128.py](solutions/python/practice128.py) | Complete |
 | Length of Last Word | cpp | [practice9.cpp](solutions/cpp/practice9.cpp) | Complete |
 | Length of Last Word | python | [practice9.py](solutions/python/practice9.py) | Complete |
 | Letter Combinations of a Phone Number | python | [practice424.py](solutions/python/practice424.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 135
+**Total needing attention:** 134
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -554,7 +554,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Two Sum | python | [practice124.py](solutions/python/practice124.py) | Incomplete Header (Note or Topic (missing)) |
 | Spiral Matrix 2 | python | [practice126.py](solutions/python/practice126.py) | Incomplete Header (Note or Topic (missing)) |
 | Permutation Sequence | python | [practice127.py](solutions/python/practice127.py) | Incomplete Header (Note or Topic (missing)) |
-| Length of Last Word | python | [practice128.py](solutions/python/practice128.py) | Incomplete Header (Note or Topic (missing)) |
 | Insert Interval | python | [practice129.py](solutions/python/practice129.py) | Incomplete Header (Note or Topic (missing)) |
 | Merge Intervals | python | [practice130.py](solutions/python/practice130.py) | Incomplete Header (Note or Topic (missing)) |
 | Spiral Matrix | python | [practice131.py](solutions/python/practice131.py) | Incomplete Header (Note or Topic (missing)) |
