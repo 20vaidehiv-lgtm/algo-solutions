@@ -126,7 +126,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Subarray Sum Equals K | python | [practice165.py](solutions/python/practice165.py) | Complete |
 | Sum of All Odd Length Subarrays | python | [practice305.py](solutions/python/practice305.py) | Complete |
 | Sum of Variable Length Subarrays | python | [practice235.py](solutions/python/practice235.py) | Complete |
-| Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | In Progress / Needs Work |
+| Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | Complete |
 | Two Sum | cpp | [practice1.cpp](solutions/cpp/practice1.cpp) | Complete |
 | Two Sum | haskell | [practice1.hs](solutions/haskell/practice1.hs) | Incomplete Header (Note or Topic (missing)) |
 | Two Sum | python | [practice124.py](solutions/python/practice124.py) | Incomplete Header (Note or Topic (missing)) |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 133
+**Total needing attention:** 132
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -634,7 +634,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Sum of Even and Odd Numbers | python | [practice419.py](solutions/python/practice419.py) | Incomplete Header (Source (blank)) |
 | Sum of Multiples of 3 and 5 | python | [practice42.py](solutions/python/practice42.py) | Incomplete Header (Source (blank)) |
 | Zigzag Conversion | python | [practice422.py](solutions/python/practice422.py) | In Progress / Needs Work |
-| Trapping Rain Water | python | [practice423.py](solutions/python/practice423.py) | In Progress / Needs Work |
 | Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
 | Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
