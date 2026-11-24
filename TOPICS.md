@@ -325,7 +325,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Length of Last Word | python | [practice9.py](solutions/python/practice9.py) | Complete |
 | Letter Combinations of a Phone Number | python | [practice424.py](solutions/python/practice424.py) | Complete |
 | Longest Common Prefix | python | [practice50.py](solutions/python/practice50.py) | Complete |
-| Longest Common Subsequence | javascript | [practice6.js](solutions/javascript/practice6.js) | In Progress / Needs Work |
+| Longest Common Subsequence | javascript | [practice6.js](solutions/javascript/practice6.js) | Complete |
 | Longest Palindrome in a String | python | [practice353.py](solutions/python/practice353.py) | Complete |
 | Longest Substring Without Repeating Characters | python | [practice133.py](solutions/python/practice133.py) | Incomplete Header (Note or Topic (missing)) |
 | Longest Substring Without Repeating Characters | python | [practice252.py](solutions/python/practice252.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 131
+**Total needing attention:** 130
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -645,7 +645,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Number Power Sum | python | [practice56.py](solutions/python/practice56.py) | Incomplete Header (Source (blank)) |
 | String Split Check | python | [practice57.py](solutions/python/practice57.py) | Incomplete Header (Source (blank)) |
 | Search in Rotated Sorted Array | cpp | [practice6.cpp](solutions/cpp/practice6.cpp) | In Progress / Needs Work |
-| Longest Common Subsequence | javascript | [practice6.js](solutions/javascript/practice6.js) | In Progress / Needs Work |
 | Frequency Counter | python | [practice65.py](solutions/python/practice65.py) | Incomplete Header (Source (blank)) |
 | Filter Strings by Substring | python | [practice67.py](solutions/python/practice67.py) | Incomplete Header (Source (blank)) |
 | Fibonacci Sequence Generator | python | [practice68.py](solutions/python/practice68.py) | Incomplete Header (Source (blank)) |
