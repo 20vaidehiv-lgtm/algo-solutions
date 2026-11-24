@@ -66,7 +66,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Maximum Area of Longest Diagonal Rectangle | python | [practice52.py](solutions/python/practice52.py) | Complete |
 | Maximum Area of Longest Diagonal Rectangle | python | [practice85.py](solutions/python/practice85.py) | Incomplete Header (Note or Topic (missing)) |
 | Maximum Product Subarray | python | [practice370.py](solutions/python/practice370.py) | Complete |
-| Maximum Product Subarray | java | [practice8.java](solutions/java/practice8.java) | In Progress / Needs Work |
+| Maximum Product Subarray | java | [practice8.java](solutions/java/practice8.java) | Complete |
 | Maximum Subarray | c | [practice2.c](solutions/c/practice2.c) | Complete |
 | Maximum Subarray | python | [practice2.py](solutions/python/practice2.py) | Complete |
 | Maximum Subarray | python | [practice338.py](solutions/python/practice338.py) | Incomplete Header (Note or Topic (missing)) |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 130
+**Total needing attention:** 129
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -653,7 +653,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Most Frequent Even Number | python | [practice70.py](solutions/python/practice70.py) | Incomplete Header (Source (blank)) |
 | Time Limit Validator | python | [practice77.py](solutions/python/practice77.py) | Incomplete Header (Source (blank)) |
 | Character Triangle Pattern | python | [practice79.py](solutions/python/practice79.py) | Incomplete Header (Source (blank)) |
-| Maximum Product Subarray | java | [practice8.java](solutions/java/practice8.java) | In Progress / Needs Work |
 | Check if All Arrays Have Same Elements | python | [practice80.py](solutions/python/practice80.py) | Incomplete Header (Source (blank)) |
 | Maximum Area of Longest Diagonal Rectangle | python | [practice85.py](solutions/python/practice85.py) | Incomplete Header (Note or Topic (missing)) |
 | Clear Digits | python | [practice86.py](solutions/python/practice86.py) | Incomplete Header (Note or Topic (missing)) |
