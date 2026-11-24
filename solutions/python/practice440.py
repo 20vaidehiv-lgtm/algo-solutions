@@ -1,7 +1,8 @@
 # Problem: Stock Span Problem
 # Source: https://www.geeksforgeeks.org/problems/stock-span-problem-1587115621/1
 # Topic: Stack, Arrays
-# Status: FIXED THE PROBLEM :)
+# Status: DONE
+# Note: usus stack of indexes to find the sapan of each day's price.
 
 def calculate_span(price):
     n = len(price)
