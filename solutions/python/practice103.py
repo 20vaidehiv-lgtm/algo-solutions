@@ -1,5 +1,6 @@
 # Problem: Count Numbers with Unique Digits
 # Source: https://leetcode.com/problems/count-numbers-with-unique-digits/
+# Note: Brute-force the range and count values whose decimal digits are all distinct.
 
 # Given an integer n, return the count of all numbers with unique digits, x, where 0 <= x < 10^n.
 # This implementation brute-forces every number from 0 to 10^n - 1 and checks whether its decimal representation has all distinct digits.
