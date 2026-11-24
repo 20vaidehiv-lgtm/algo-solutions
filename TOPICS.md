@@ -287,7 +287,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Binary Palindrome | python | [practice27.py](solutions/python/practice27.py) | Incomplete Header (Source (blank)) |
 | Buddy Strings | python | [practice59.py](solutions/python/practice59.py) | Complete |
 | Buddy Strings Challenge | python | [practice107.py](solutions/python/practice107.py) | Complete |
-| Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
+| Build Tower | python | [practice432.py](solutions/python/practice432.py) | Complete |
 | Calculate Percentage of Letter in String | python | [practice102.py](solutions/python/practice102.py) | Incomplete Header (Note or Topic (missing)) |
 | CamelCase | python | [practice382.py](solutions/python/practice382.py) | Incomplete Header (Note or Topic (missing)) |
 | Character Frequency Counter | python | [practice415.py](solutions/python/practice415.py) | Incomplete Header (Note or Topic (missing)) |
@@ -306,7 +306,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Counting Words With a Given Prefix | python | [practice325.py](solutions/python/practice325.py) | Incomplete Header (Note or Topic (missing)) |
 | Create Phone Number | python | [practice40.py](solutions/python/practice40.py) | Complete |
 | Data Reverse | python | [practice217.py](solutions/python/practice217.py) | Complete |
-| Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
+| Decode Ways | python | [practice428.py](solutions/python/practice428.py) | Complete |
 | Filter Strings by Substring | python | [practice67.py](solutions/python/practice67.py) | Incomplete Header (Source (blank)) |
 | Find Common Characters | python | [practice234.py](solutions/python/practice234.py) | Complete |
 | Find Strings Containing a Specific Character | python | [practice89.py](solutions/python/practice89.py) | Incomplete Header (Note or Topic (missing)) |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 129
+**Total needing attention:** 127
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -634,8 +634,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Sum of Even and Odd Numbers | python | [practice419.py](solutions/python/practice419.py) | Incomplete Header (Source (blank)) |
 | Sum of Multiples of 3 and 5 | python | [practice42.py](solutions/python/practice42.py) | Incomplete Header (Source (blank)) |
 | Zigzag Conversion | python | [practice422.py](solutions/python/practice422.py) | In Progress / Needs Work |
-| Decode Ways | python | [practice428.py](solutions/python/practice428.py) | In Progress / Needs Work |
-| Build Tower | python | [practice432.py](solutions/python/practice432.py) | In Progress / Needs Work |
 | Largest Prime Factor | python | [practice439.py](solutions/python/practice439.py) | In Progress / Needs Work |
 | Rotate List by N Steps | python | [practice47.py](solutions/python/practice47.py) | Incomplete Header (Source (blank)) |
 | String Unscrambling | python | [practice48.py](solutions/python/practice48.py) | Incomplete Header (Source (blank)) |
