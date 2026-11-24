@@ -16,6 +16,7 @@
 #   Explanation: The percentage of characters in s that equal the letter 'o' is 2 / 6 * 100% = 33% when rounded down.
 
 def letter_percentage(s, c):
+    """Return the percentage of characters in s that equal letter, rounded down to the nearest whole percent."""
     if not s:
         return 0
     return int(s.lower().count(c.lower()) / len(s) * 100)
