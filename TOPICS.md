@@ -188,7 +188,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Count Number of Maximum Bitwise-OR Subsets | python | [practice157.py](solutions/python/practice157.py) | Complete |
 | Count Number of Pairs With Absolute Difference K | python | [practice260.py](solutions/python/practice260.py) | Complete |
 | Count Numbers with Even Number of Digits | python | [practice83.py](solutions/python/practice83.py) | Complete |
-| Count Numbers with Unique Digits | python | [practice103.py](solutions/python/practice103.py) | Incomplete Header (Note or Topic (missing)) |
+| Count Numbers with Unique Digits | python | [practice103.py](solutions/python/practice103.py) | Complete |
 | Count Pairs Whose Sum is Less than Target | python | [practice149.py](solutions/python/practice149.py) | Complete |
 | Count the Digits That Divide a Number | python | [practice186.py](solutions/python/practice186.py) | Complete |
 | Digit Frequency Score | python | [practice411.py](solutions/python/practice411.py) | Complete |
@@ -534,7 +534,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 134
+**Total needing attention:** 133
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -542,7 +542,6 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | A Number After a Double Reversal | python | [practice100.py](solutions/python/practice100.py) | Incomplete Header (Note or Topic (missing)) |
 | Calculate Alternating Digit Sum | python | [practice101.py](solutions/python/practice101.py) | Incomplete Header (Note or Topic (missing)) |
 | Calculate Percentage of Letter in String | python | [practice102.py](solutions/python/practice102.py) | Incomplete Header (Note or Topic (missing)) |
-| Count Numbers with Unique Digits | python | [practice103.py](solutions/python/practice103.py) | Incomplete Header (Note or Topic (missing)) |
 | Multiply Two Strings | python | [practice104.py](solutions/python/practice104.py) | Incomplete Header (Note or Topic (missing)) |
 | Check If All A's Appears Before All B's | python | [practice114.py](solutions/python/practice114.py) | Incomplete Header (Note or Topic (missing)) |
 | Most Frequent Even Element | python | [practice115.py](solutions/python/practice115.py) | Incomplete Header (Note or Topic (missing)) |
