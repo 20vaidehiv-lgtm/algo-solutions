@@ -58,9 +58,15 @@ algo-solutions/
 
 ---
 
-## 2. Adding a Test File (Optional but Encouraged)
+## 2. Adding a Test File (Required for New Solutions)
 
 Test files live in `tests/<language>/` — mirroring the solution folder. This keeps everything tidy and consistent across all languages.
+
+> **A test file is mandatory for every new solution.** The CI pipeline automatically checks that:
+> 1. A matching test file exists (`tests/<lang>/test_<filename>`).
+> 2. All assertions in that test file pass.
+>
+> Pull requests that add a solution file without a passing test file will be blocked.
 
 ### Naming convention
 
@@ -91,7 +97,7 @@ if __name__ == "__main__":
     unittest.main()
 ```
 
-> Test files are optional. You do not need one to get a PR merged. But adding one earns you bonus points and helps everyone who reads the solution later.
+> Your test file must include at least one assertion that verifies your solution's correctness. The CI will run it automatically and block the PR if it fails.
 
 ---
 
