@@ -414,7 +414,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 | Binary to Decimal | python | [practice346.py](solutions/python/practice346.py) | Complete |
 | Bouncing Balls | python | [practice195.py](solutions/python/practice195.py) | Complete |
 | Cable Connection Optimization | python | [practice3.py](solutions/python/practice3.py) | Incomplete Header (Source (blank)) |
-| Calculate H-Index | python | [practice99.py](solutions/python/practice99.py) | Incomplete Header (Note or Topic (missing)) |
+| Calculate H-Index | python | [practice99.py](solutions/python/practice99.py) | Complete |
 | Calendar Module | python | [practice278.py](solutions/python/practice278.py) | Complete |
 | Cancellable Item Transactions | python | [practice193.py](solutions/python/practice193.py) | Complete |
 | Chain me | python | [practice223.py](solutions/python/practice223.py) | Complete |
@@ -533,7 +533,7 @@ The folder structure remains language-based (`solutions/<language>/practice<n>.<
 ## Solutions Needing Attention
 
 These solutions need headers, test cases, or implementation fixes. They are ideal for contributor PRs.
-**Total needing attention:** 127
+**Total needing attention:** 126
 
 | Problem | Language | File | Needs |
 |---|---|---|---|
@@ -663,4 +663,3 @@ These solutions need headers, test cases, or implementation fixes. They are idea
 | Number of Steps to Reduce a Number to Zero | python | [practice95.py](solutions/python/practice95.py) | Incomplete Header (Note or Topic (missing)) |
 | Count Elements Smaller Than Current Element | python | [practice96.py](solutions/python/practice96.py) | Incomplete Header (Note or Topic (missing)) |
 | Days to Wait for a Luckier Day | python | [practice98.py](solutions/python/practice98.py) | Incomplete Header (Note or Topic (missing)) |
-| Calculate H-Index | python | [practice99.py](solutions/python/practice99.py) | Incomplete Header (Note or Topic (missing)) |
