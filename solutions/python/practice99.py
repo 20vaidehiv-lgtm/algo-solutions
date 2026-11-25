@@ -1,5 +1,6 @@
 # Problem: Calculate H-Index
 # Source: https://leetcode.com/problems/h-index/
+# Note: Print the h-index threshold instead of the citation count.
 
 n = int(input('Enter the number of papers: '))
 print('Enter the number of citations for each paper:')
@@ -13,6 +14,6 @@ for i in range(n - 1, -1, -1):
         if cit[j] >= i:
             temp += 1
     if temp >= i:
-        print(f"The researcher's h-index is: {temp}")
+        print(f"The researcher's h-index is: {i}")
         break
 
