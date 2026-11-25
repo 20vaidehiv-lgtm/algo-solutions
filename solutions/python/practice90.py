@@ -16,4 +16,4 @@ for i in range(len(s)):
         res.append(s[i])
         pass_char = s[i]
 
-print(f'Transformed string: {''.join(res)}')
+print(f"Transformed string: {''.join(res)}")
