@@ -13,6 +13,6 @@ for i in range(n - 1, -1, -1):
         if cit[j] >= i:
             temp += 1
     if temp >= i:
-        print(f"The researcher's h-index is: {temp}")
+        print(f"The researcher's h-index is: {i}")
         break
 
