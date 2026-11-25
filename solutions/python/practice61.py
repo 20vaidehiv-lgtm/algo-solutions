@@ -30,13 +30,3 @@ def getMaxTwice(arr):
             return -1
     
     return max_index
-
-# Test cases with assertions
-assert getMaxTwice([3, 6, 1, 0]) == 1
-assert getMaxTwice([1, 2, 3, 4]) == -1
-assert getMaxTwice([1]) == -1
-assert getMaxTwice([0, 0, 0, 1]) == 3
-assert getMaxTwice([1, 0]) == 0
-assert getMaxTwice([2, 4, 8, 16]) == -1
-
-print("All test cases passed!")

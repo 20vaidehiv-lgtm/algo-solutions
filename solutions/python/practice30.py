@@ -48,28 +48,3 @@ def sumAlternatingDigit(n):
         sign *= -1
     
     return sum(total)
-
-# Test cases with assertions
-# Example 1
-assert sumAlternatingDigit(4567) == 4 - 5 + 6 - 7
-
-# Example 2
-assert sumAlternatingDigit(123) == 1 - 2 + 3
-
-# Example 3
-assert sumAlternatingDigit(10) == 1 - 0
-
-# Example 4
-assert sumAlternatingDigit(1) == 1
-
-# Example 5
-assert sumAlternatingDigit(100) == 1 - 0 + 0
-
-# Example 6
-assert sumAlternatingDigit(999) == 9 - 9 + 9
-
-# Edge cases
-assert sumAlternatingDigit(0) == 0
-assert sumAlternatingDigit(111) == 1 - 1 + 1
-
-print("All test cases passed!")

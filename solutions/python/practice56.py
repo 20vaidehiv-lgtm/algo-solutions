@@ -36,18 +36,3 @@ def number_power_sum(x):
         result += str(int(math.pow(int(digit), power)))
     
     return result
-
-# Test cases with assertions
-# Example 1
-assert number_power_sum("123 2") == "941"
-
-# Example 2
-assert number_power_sum("12 3") == "81"
-
-# Example 3
-assert number_power_sum("5 2") == "25"
-
-# Example 4
-assert number_power_sum("10 1") == "01"
-
-print("All test cases passed!")

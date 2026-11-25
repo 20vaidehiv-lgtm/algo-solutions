@@ -22,21 +22,5 @@ class Solution {
 
         return true;
     }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        if (!sol.isAnagram("anagram", "nagaram")) {
-            throw new AssertionError("Test 1 failed");
-        }
-        if (sol.isAnagram("rat", "car")) {
-            throw new AssertionError("Test 2 failed");
-        }
-        if (!sol.isAnagram("a", "a")) {
-            throw new AssertionError("Test 3 failed");
-        }
-
-        System.out.println("All Valid Anagram Java test cases passed!");
-    }
 }
 

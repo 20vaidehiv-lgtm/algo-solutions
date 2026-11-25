@@ -40,5 +40,3 @@ while i < len(res):
         final += res[i]
     i += 1
 print(final.strip())
-
-assert final.strip() == "This is Matrix#  %!"

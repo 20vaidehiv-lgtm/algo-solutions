@@ -391,7 +391,7 @@ class Solution:
 
 Save the file when you are done.
 
-For the full header format rules and more examples, see [CONTRIBUTING.md](../CONTRIBUTING.md#2-header-comment-format).
+For the full header format rules and more examples, see [CONTRIBUTING.md](../CONTRIBUTING.md#3-header-comment-format).
 
 ---
 
@@ -496,7 +496,7 @@ A Pull Request is how you officially ask for your changes to be added to the ori
    ```
    Replace `142` with the actual issue number. This links your PR to the issue automatically.
 
-   For more tips on writing good PR titles and descriptions, see [CONTRIBUTING.md](../CONTRIBUTING.md#4-what-a-good-pull-request-title-looks-like).
+   For more tips on writing good PR titles and descriptions, see [CONTRIBUTING.md](../CONTRIBUTING.md#5-what-a-good-pull-request-title-looks-like).
 
 6. Click the green **Create pull request** button.
 
@@ -582,11 +582,7 @@ This means two people changed the same part of the same file at the same time, a
 
 Open the file that has the conflict. Look for lines that look like this:
 ```
-<<<<<<< HEAD
 your version of the line
-=======
-the other version of the line
->>>>>>> main
 ```
 
 Delete the lines you do not want, including the `<<<<<<<`, `=======`, and `>>>>>>>` marker lines. Save the file. Then run:

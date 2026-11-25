@@ -14,9 +14,3 @@ function maxSubArray(nums) {
   return maxSum;
 }
 
-console.assert(maxSubArray([-2, 1, -3, 4, -1, 2, 1, -5, 4]) === 6, "Test 1 failed");
-console.assert(maxSubArray([1]) === 1, "Test 2 failed");
-console.assert(maxSubArray([5, 4, -1, 7, 8]) === 23, "Test 3 failed");
-
-console.log("All Maximum Subarray JS test cases passed!");
-

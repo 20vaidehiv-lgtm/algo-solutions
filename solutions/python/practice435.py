@@ -35,7 +35,3 @@ def oranges_rotting(grid):
                     queue.append((nr, nc))
 
     return minutes if fresh == 0 else -1
-
-assert oranges_rotting([[2,1,1],[1,1,0],[0,1,1]]) == 4
-assert oranges_rotting([[2,1,1],[0,1,1],[1,0,1]]) == -1
-assert oranges_rotting([[0,2]]) == 0

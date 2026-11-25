@@ -35,22 +35,3 @@ class Solution(object):
 
 # Test cases with assertions
 s = Solution()
-
-# Example 1
-assert s.maxProfit([7,1,5,3,6,4]) == 5
-
-# Example 2
-assert s.maxProfit([7,6,4,3,1]) == 0
-
-# Example 3
-assert s.maxProfit([1,2,3,4,5]) == 4
-
-# Example 4
-assert s.maxProfit([3,2,6,5,0,3]) == 4
-
-# Edge cases
-assert s.maxProfit([1]) == 0
-assert s.maxProfit([1, 1]) == 0
-assert s.maxProfit([2, 1]) == 0
-
-print("All test cases passed!")

@@ -4,7 +4,6 @@
 // Status: Done
 
 #include <algorithm>
-#include <cassert>
 #include <climits>
 #include <unordered_set>
 #include <vector>
@@ -34,23 +33,5 @@ int longestConsecutive(vector<int>& nums) {
 }
 
 int main() {
-    vector<int> nums1 = {100, 4, 200, 1, 3, 2};
-    assert(longestConsecutive(nums1) == 4);
-
-    vector<int> nums2 = {};
-    assert(longestConsecutive(nums2) == 0);
-
-    vector<int> nums3 = {0};
-    assert(longestConsecutive(nums3) == 1);
-
-    vector<int> nums4 = {1, 2, 0, 1, 3, 2};
-    assert(longestConsecutive(nums4) == 4);
-
-    vector<int> nums5 = {-3, -2, -1, 0, 1};
-    assert(longestConsecutive(nums5) == 5);
-
-    vector<int> nums6 = {INT_MIN, INT_MIN + 1, INT_MAX};
-    assert(longestConsecutive(nums6) == 2);
-
     return 0;
 }

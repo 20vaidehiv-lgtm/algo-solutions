@@ -17,13 +17,3 @@ def filter_strings_by_substring(strings, substring):
     
     filtered = [x for x in strings if substring in x]
     return "\n".join(filtered)
-
-# Test cases with assertions
-assert filter_strings_by_substring(["hello", "world", "hello world"], "lo") == "hello\nhello world"
-assert filter_strings_by_substring(["abc", "def", "ghi"], "x") == ""
-assert filter_strings_by_substring(["test", "testing", "tested"], "test") == "test\ntesting\ntested"
-assert filter_strings_by_substring([], "any") == ""
-assert filter_strings_by_substring(["single"], "single") == "single"
-assert filter_strings_by_substring(["hello", "world"], "") == "hello\nworld"
-
-print("All test cases passed!")

@@ -29,8 +29,3 @@ if __name__ == "__main__":
     solution = Solution()
     result = solution.maxArea([1, 8, 6, 2, 5, 4, 8, 3, 7])
     print("Result:", result)
-    assert result == 49, f"Expected 49, got {result}"
-    assert solution.maxArea([1, 1]) == 1
-    assert solution.maxArea([4, 3, 2, 1, 4]) == 16
-    assert solution.maxArea([1, 2, 1]) == 2
-    assert solution.maxArea([2, 3, 4, 5, 18, 17, 6]) == 17

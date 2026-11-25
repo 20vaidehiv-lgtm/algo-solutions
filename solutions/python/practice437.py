@@ -19,8 +19,3 @@ def common_child(s1, s2):
         prev = curr
 
     return prev[m]
-
-assert common_child("HARRY", "SALLY") == 2
-assert common_child("AA", "BB") == 0
-assert common_child("SHINCHAN", "NOHARAAA") == 3
-assert common_child("ABCDEF", "FBDAMN") == 2

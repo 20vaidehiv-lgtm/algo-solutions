@@ -93,6 +93,13 @@ algo-solutions/
 │   │   └── ...
 │   └── <your language>/        # any language is welcome
 │       └── practice1.js
+├── tests/
+│   ├── python/
+│   │   └── test_practice1.py   # optional test files, mirroring solutions/
+│   ├── javascript/
+│   │   └── test_practice1.js
+│   └── java/
+│       └── test_practice1.java
 ├── assets/
 ├── README.md
 ├── TOPICS.md

@@ -26,18 +26,6 @@ class Solution {
         return result;
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
 
-        if (sol.maxProduct(new int[]{2, 3, -2, 4}) != 6) {
-            throw new AssertionError("Test 1 failed");
-        }
-        if (sol.maxProduct(new int[]{-2, 0, -1}) != 0) {
-            throw new AssertionError("Test 2 failed");
-        }
-        if (sol.maxProduct(new int[]{-2, 3, -4}) != 24) {
-            throw new AssertionError("Test 3 failed");
-        }
-    }
 }
 

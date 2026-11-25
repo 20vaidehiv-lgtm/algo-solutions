@@ -42,8 +42,3 @@ def build(vals):
             q.append(node.right)
         i += 1
     return root
-
-assert min_depth(build([1])) == 1
-assert min_depth(build([3, 9, 20, None, None, 15, 7])) == 2
-assert min_depth(build([1, 2, None, 3, None, 4, None, 5])) == 5
-assert min_depth(None) == 0

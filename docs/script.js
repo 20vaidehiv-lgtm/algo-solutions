@@ -3,6 +3,7 @@ let allSolutions = [];
 document.addEventListener('DOMContentLoaded', async () => {
     await loadSolutions();
     setupEventListeners();
+    populateLanguageFilter();
     populateTopicFilter();
     filterAndDisplay();
 });
@@ -34,6 +35,16 @@ function setupEventListeners() {
     document.getElementById('searchInput').addEventListener('input', filterAndDisplay);
     document.getElementById('languageFilter').addEventListener('change', filterAndDisplay);
     document.getElementById('topicFilter').addEventListener('change', filterAndDisplay);
+}
+
+function populateLanguageFilter() {
+    const languageFilter = document.getElementById('languageFilter');
+    const languages = [...new Set(allSolutions.map(solution => solution.language))]
+        .filter(Boolean)
+        .sort((a, b) => capitalizeLanguage(a).localeCompare(capitalizeLanguage(b)));
+
+    languageFilter.replaceChildren(new Option('All languages', ''));
+    languages.forEach(lang => languageFilter.add(new Option(capitalizeLanguage(lang), lang)));
 }
 
 function populateTopicFilter() {
@@ -105,9 +116,18 @@ function capitalizeLanguage(language) {
     const labels = {
         python: 'Python',
         javascript: 'JavaScript',
+        typescript: 'TypeScript',
+        c: 'C',
         cpp: 'C++',
         java: 'Java',
-        typescript: 'TypeScript'
+        haskell: 'Haskell',
+        csharp: 'C#',
+        go: 'Go',
+        rust: 'Rust',
+        kotlin: 'Kotlin',
+        swift: 'Swift',
+        php: 'PHP',
+        ruby: 'Ruby'
     };
     return labels[language] || language;
 }

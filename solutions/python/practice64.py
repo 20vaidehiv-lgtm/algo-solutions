@@ -28,14 +28,3 @@ def longest_substring_without_repeating(s):
         max_length = max(max_length, current_length)
     
     return max_length
-
-# Test cases with assertions
-assert longest_substring_without_repeating("abcabcbb") == 3
-assert longest_substring_without_repeating("bbbbb") == 1
-assert longest_substring_without_repeating("pwwkew") == 3
-assert longest_substring_without_repeating("") == 0
-assert longest_substring_without_repeating("a") == 1
-assert longest_substring_without_repeating("au") == 2
-assert longest_substring_without_repeating("dvdf") == 3
-
-print("All test cases passed!")

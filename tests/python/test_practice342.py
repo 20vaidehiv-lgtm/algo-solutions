@@ -1,0 +1,28 @@
+import os
+import sys
+import unittest
+
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "solutions", "python"))
+
+from practice342 import Solution  # noqa: E402
+
+
+class ArrayRankTransformTest(unittest.TestCase):
+    def setUp(self):
+        self.sol = Solution()
+
+    def test_examples(self):
+        self.assertEqual(
+            self.sol.arrayRankTransform([37, 12, 28, 9, 100, 56, 80, 5, 12]),
+            [5, 3, 4, 2, 8, 6, 7, 1, 3],
+        )
+        self.assertEqual(self.sol.arrayRankTransform([40, 10, 20, 30]), [4, 1, 2, 3])
+        self.assertEqual(self.sol.arrayRankTransform([100, 100, 100]), [1, 1, 1])
+
+    def test_empty_and_negatives(self):
+        self.assertEqual(self.sol.arrayRankTransform([]), [])
+        self.assertEqual(self.sol.arrayRankTransform([-10, 0, -5]), [1, 3, 2])
+
+
+if __name__ == "__main__":
+    unittest.main()

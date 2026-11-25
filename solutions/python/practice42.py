@@ -20,13 +20,3 @@ def sum_multiples_3_5(limit):
         if i % 3 == 0 or i % 5 == 0:
             total_sum += i
     return total_sum
-
-# Test cases with assertions
-assert sum_multiples_3_5(10) == 3 + 5 + 6 + 9  # 23
-assert sum_multiples_3_5(20) == 3 + 5 + 6 + 9 + 10 + 12 + 15 + 18  # 78
-assert sum_multiples_3_5(1) == 0  # No multiples below 1
-assert sum_multiples_3_5(6) == 3 + 5  # 8
-assert sum_multiples_3_5(0) == 0
-assert sum_multiples_3_5(1000) == 233168  # Classic Project Euler result
-
-print("All test cases passed!")

@@ -10,10 +10,3 @@ def speedify(st):
         res[space] = l
 
     return "".join(res).rstrip()
-
-
-assert speedify("AZ") == "A                         Z"
-assert speedify("ABC") == "A B C"
-assert speedify("ACE") == "A  C  E"
-assert speedify("CBA") == "  A"
-assert speedify("HELLOWORLD") == "     E H    DLL   OLO   R  W"

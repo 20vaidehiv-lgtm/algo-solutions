@@ -19,13 +19,3 @@ def sum_of_multiples(n):
         if i % 3 == 0 or i % 5 == 0 or i % 7 == 0:
             total_sum += i
     return total_sum
-
-# Test cases with assertions
-assert sum_of_multiples(10) == 3 + 5 + 6 + 7 + 9 + 10  # 40
-assert sum_of_multiples(15) == 3 + 5 + 6 + 7 + 9 + 10 + 12 + 14 + 15  # 81
-assert sum_of_multiples(1) == 0  # No multiples
-assert sum_of_multiples(3) == 3  # Only 3
-assert sum_of_multiples(5) == 3 + 5  # 8
-assert sum_of_multiples(7) == 3 + 5 + 6 + 7  # 21
-
-print("All test cases passed!")

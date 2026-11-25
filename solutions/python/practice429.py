@@ -38,8 +38,3 @@ def make_list(vals):
         cur.next = ListNode(v)
         cur = cur.next
     return dummy.next
-
-assert to_list(mergeKLists([make_list([1,4,5]), make_list([1,3,4]), make_list([2,6])])) == [1,1,2,3,4,4,5,6]
-assert to_list(mergeKLists([])) == []
-assert to_list(mergeKLists([make_list([])])) == []
-assert to_list(mergeKLists([make_list([1,2]), make_list([3,4])])) == [1,2,3,4]

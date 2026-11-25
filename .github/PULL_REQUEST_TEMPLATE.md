@@ -8,7 +8,13 @@ Closes #
 
 ## Checklist
 
-- [ ] The solution includes the required problem, source, and note header comment.
-- [ ] The file is in the correct `solutions/<language>/` folder and follows the `practice<n>` naming convention.
-- [ ] I ran the solution and checked that it works.
-- [ ] I have kept this pull request focused on one change.
+- [ ] The solution file is in `solutions/<language>/practice<n>.<ext>` and follows the `practice<n>` naming convention.
+- [ ] The solution file starts with the required header comment:
+  ```
+  # Problem: <name>
+  # Source: <url>
+  # Topic: <tags>   OR   # Note: <approach note>
+  ```
+- [ ] If I added a test file, it is in `tests/<language>/test_practice<n>.<ext>`.
+- [ ] I ran the solution locally and confirmed it works.
+- [ ] This pull request is focused on one change (one solution, one fix, or one doc update).

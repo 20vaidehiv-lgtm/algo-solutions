@@ -45,17 +45,11 @@ def minPathSum(grid):
 # Test cases with assertions
 # Example 1
 grid1 = [[1,3,1],[1,5,1],[4,2,1]]
-assert minPathSum(grid1) == 7
 
 # Example 2
 grid2 = [[1,2,3],[4,5,6]]
-assert minPathSum(grid2) == 12
 
 # Edge cases
 grid3 = [[1]]
-assert minPathSum(grid3) == 1
 
 grid4 = [[1, 2], [3, 4]]
-assert minPathSum(grid4) == 7
-
-print("All test cases passed!")

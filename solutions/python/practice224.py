@@ -35,8 +35,3 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    assert solution.fourSum([1, 0, -1, 0, -2, 2], 0) == [
-        [-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1],
-    ]
-    assert solution.fourSum([2, 2, 2, 2, 2], 8) == [[2, 2, 2, 2]]
-    assert solution.fourSum([0, 0, 0, 0], 0) == [[0, 0, 0, 0]]

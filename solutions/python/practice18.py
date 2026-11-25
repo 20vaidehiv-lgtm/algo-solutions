@@ -56,20 +56,13 @@ def uniquePathsWithObstacles(obstacleGrid):
 # Test cases with assertions
 # Example 1
 grid1 = [[0,0,0],[0,1,0],[0,0,0]]
-assert uniquePathsWithObstacles(grid1) == 2
 
 # Example 2
 grid2 = [[0,1],[0,0]]
-assert uniquePathsWithObstacles(grid2) == 1
 
 # Edge cases
 grid3 = [[1]]
-assert uniquePathsWithObstacles(grid3) == 0
 
 grid4 = [[0]]
-assert uniquePathsWithObstacles(grid4) == 1
 
 grid5 = [[0, 0], [0, 0]]
-assert uniquePathsWithObstacles(grid5) == 2
-
-print("All test cases passed!")

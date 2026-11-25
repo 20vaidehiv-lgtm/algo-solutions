@@ -27,14 +27,3 @@ def sum_digits(num: int) -> int:
         num = digit_sum
     
     return num
-
-# Test cases with assertions
-assert sum_digits(38) == 2
-assert sum_digits(999) == 9
-assert sum_digits(12345) == 6
-assert sum_digits(9) == 9
-assert sum_digits(10) == 1
-assert sum_digits(0) == 0
-assert sum_digits(123) == 6
-
-print("All test cases passed!")

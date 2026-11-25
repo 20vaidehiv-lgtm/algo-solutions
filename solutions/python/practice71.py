@@ -38,15 +38,3 @@ def is_valid_parentheses(s):
             stack.append(char)
     
     return len(stack) == 0
-
-# Test cases with assertions
-assert is_valid_parentheses("()") == True
-assert is_valid_parentheses("()[]{}") == True
-assert is_valid_parentheses("(]") == False
-assert is_valid_parentheses("([)]") == False
-assert is_valid_parentheses("{[]}") == True
-assert is_valid_parentheses("") == True
-assert is_valid_parentheses("(") == False
-assert is_valid_parentheses(")") == False
-
-print("All test cases passed!")

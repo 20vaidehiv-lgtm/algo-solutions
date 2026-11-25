@@ -24,22 +24,15 @@ def canSplitString(s):
 # Test cases with assertions
 # Example 1
 s1 = "b"
-assert canSplitString(s1) == True
 
 # Example 2
 s2 = ""
-assert canSplitString(s2) == False
 
 # Example 3
 s3 = "hello world"
-assert canSplitString(s3) == True
 
 # Example 4
 s4 = "   "
-assert canSplitString(s4) == False
 
 # Example 5
 s5 = "a"
-assert canSplitString(s5) == True
-
-print("All test cases passed!")

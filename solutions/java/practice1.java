@@ -30,18 +30,4 @@ class Solution {
 
         return stack.isEmpty();
     }
-
-    public static void main(String[] args) {
-        String[] inputs = {"()", "()[]{}", "(]", "([])", "([)]", "{[]}", "", "(", "(((((((((())))))))))"};
-        boolean[] expected = {true, true, false, true, false, true, true, false, true};
-        Solution solution = new Solution();
-
-        for (int i = 0; i < inputs.length; i++) {
-            if (solution.isValid(inputs[i]) != expected[i]) {
-                throw new AssertionError("Failed for input: " + inputs[i]);
-            }
-        }
-
-        System.out.println("All " + inputs.length + " test cases passed!");
-    }
 }

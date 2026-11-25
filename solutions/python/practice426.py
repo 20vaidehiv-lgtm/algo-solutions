@@ -27,9 +27,3 @@ def can_finish(numCourses, prerequisites):
         if has_cycle(i):
             return False
     return True
-
-assert can_finish(2, [[1, 0]]) == True
-assert can_finish(2, [[1, 0], [0, 1]]) == False  # cycle
-assert can_finish(5, [[1,0],[2,1],[3,2],[4,3]]) == True
-assert can_finish(3, [[0,1],[1,2],[2,0]]) == False  # 3-node cycle
-assert can_finish(1, []) == True

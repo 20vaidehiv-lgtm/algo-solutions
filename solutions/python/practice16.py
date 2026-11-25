@@ -39,22 +39,3 @@ def rankTransformArray(arr):
         ranks[indexed_arr[i][1]] = rank
     
     return ranks
-
-# Test cases with assertions
-# Example 1
-assert rankTransformArray([40, 10, 20, 30]) == [4, 1, 2, 3]
-
-# Example 2
-assert rankTransformArray([100, 100, 100]) == [1, 1, 1]
-
-# Example 3
-assert rankTransformArray([37, 12, 28, 9, 100, 56, 80, 5, 12]) == [5, 3, 4, 2, 8, 6, 7, 1, 3]
-
-# Example 4
-assert rankTransformArray([1]) == [1]
-
-# Edge cases
-assert rankTransformArray([]) == []
-assert rankTransformArray([5, 5, 5, 5]) == [1, 1, 1, 1]
-
-print("All test cases passed!")

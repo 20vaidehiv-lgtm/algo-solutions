@@ -25,21 +25,3 @@ def lengthOfLastWord(s: str) -> int:
         return 0
     
     return len(words[-1])
-
-# Test cases with assertions
-# Example 1
-assert lengthOfLastWord("Hello World") == 5
-
-# Example 2
-assert lengthOfLastWord("   fly me   to   the moon  ") == 4
-
-# Example 3
-assert lengthOfLastWord("luffy is still joyboy") == 6
-
-# Edge cases
-assert lengthOfLastWord("a") == 1
-assert lengthOfLastWord("   a   ") == 1
-assert lengthOfLastWord("word") == 4
-assert lengthOfLastWord("   word   ") == 4
-
-print("All test cases passed!")

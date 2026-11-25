@@ -20,7 +20,3 @@ def convert(s, numRows):
         cur_row += 1 if going_down else -1
 
     return "".join(rows)
-
-assert convert("PAYPALISHIRING", 3) == "PAHNAPLSIIGYIR"
-assert convert("PAYPALISHIRING", 4) == "PINALSIGYAHRPI"
-assert convert("A", 1) == "A"

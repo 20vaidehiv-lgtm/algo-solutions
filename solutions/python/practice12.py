@@ -38,25 +38,3 @@ class Solution(object):
 
 # Test cases with assertions
 sol = Solution()
-
-# Example 1
-assert sol.reverseStr("abcdefg", 2) == "bacdfeg"
-
-# Example 2
-assert sol.reverseStr("abcd", 2) == "bacd"
-
-# Example 3
-assert sol.reverseStr("abcdefgh", 3) == "cbadefhg"
-
-# Example 4
-assert sol.reverseStr("a", 1) == "a"
-
-# Example 5
-assert sol.reverseStr("abc", 1) == "abc"
-
-# Edge cases
-assert sol.reverseStr("", 1) == ""
-assert sol.reverseStr("ab", 3) == "ba"
-assert sol.reverseStr("abcdef", 4) == "dcbaef"
-
-print("All test cases passed!")

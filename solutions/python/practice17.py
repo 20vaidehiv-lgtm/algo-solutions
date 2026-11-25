@@ -32,36 +32,3 @@ def isPalindrome2(n):
         
     n_str = str(n)
     return n_str == n_str[::-1]
-
-# Test cases with assertions
-# Example 1
-assert isPalindrome1(121) == True
-assert isPalindrome2(121) == True
-
-# Example 2
-assert isPalindrome1(-121) == False
-assert isPalindrome2(-121) == False
-
-# Example 3
-assert isPalindrome1(10) == False
-assert isPalindrome2(10) == False
-
-# Example 4
-assert isPalindrome1(123) == False
-assert isPalindrome2(123) == False
-
-# Example 5
-assert isPalindrome1(1001) == True
-assert isPalindrome2(1001) == True
-
-# Example 6
-assert isPalindrome1(0) == True
-assert isPalindrome2(0) == True
-
-# Edge cases
-assert isPalindrome1(1) == True
-assert isPalindrome2(1) == True
-assert isPalindrome1(12321) == True
-assert isPalindrome2(12321) == True
-
-print("All test cases passed!")

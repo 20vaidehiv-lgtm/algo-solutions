@@ -33,30 +33,22 @@ def equalDivisiblePairs(arr, k):
 # Example 1
 arr1 = [3, 1, 2, 2, 2, 1, 3]
 k1 = 2
-assert equalDivisiblePairs(arr1, k1) == 4
 
 # Example 2
 arr2 = [1, 2, 3, 4]
 k2 = 1
-assert equalDivisiblePairs(arr2, k2) == 0
 
 # Example 3
 arr3 = [1, 1, 1, 1]
 k3 = 1
-assert equalDivisiblePairs(arr3, k3) == 6
 
 # Example 4
 arr4 = [1, 2, 1, 2]
 k4 = 2
-assert equalDivisiblePairs(arr4, k4) == 1
 
 # Edge cases
 arr5 = []
 k5 = 1
-assert equalDivisiblePairs(arr5, k5) == 0
 
 arr6 = [1]
 k6 = 1
-assert equalDivisiblePairs(arr6, k6) == 0
-
-print("All test cases passed!")

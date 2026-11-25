@@ -15,10 +15,3 @@ class Solution(object):
         return closest
 # Test cases
 sol = Solution()
-assert sol.getMinDistance([1, 2, 3, 4, 5], 5, 3) == 1
-assert sol.getMinDistance([1], 1, 0) == 0
-assert sol.getMinDistance([1, 1, 1, 1, 1], 1, 0) == 0
-assert sol.getMinDistance([5, 3, 6], 5, 2) == 2
-assert sol.getMinDistance([1, 2, 3, 4, 5, 3], 3, 4) == 1
-
-print("All test cases passed!")

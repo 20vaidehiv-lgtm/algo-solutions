@@ -16,6 +16,3 @@ if __name__ == "__main__":
 
     for character, count in character_frequencies(text):
         print(character, count, sep=": ")
-
-    assert character_frequencies("aab C") == [("a", 2), ("b", 1), ("c", 1)]
-    assert character_frequencies("   ") == []

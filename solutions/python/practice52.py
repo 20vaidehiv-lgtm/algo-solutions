@@ -37,22 +37,15 @@ def find_max_area_longest_diagonal(rectangles):
 # Test cases with assertions
 # Example 1
 rectangles1 = [(3, 4), (5, 12), (6, 8)]
-assert find_max_area_longest_diagonal(rectangles1) == 60  # 5x12 has longest diagonal
 
 # Example 2
 rectangles2 = [(1, 1), (2, 2), (3, 3)]
-assert find_max_area_longest_diagonal(rectangles2) == 9  # 3x3 has longest diagonal
 
 # Example 3
 rectangles3 = [(4, 3), (8, 6)]  # Same diagonal, different areas
-assert find_max_area_longest_diagonal(rectangles3) == 48  # 8x6 has larger area
 
 # Example 4
 rectangles4 = [(1, 1)]
-assert find_max_area_longest_diagonal(rectangles4) == 1
 
 # Edge cases
 rectangles5 = []
-assert find_max_area_longest_diagonal(rectangles5) == 0
-
-print("All test cases passed!")

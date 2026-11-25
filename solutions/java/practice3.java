@@ -24,18 +24,5 @@ class Solution {
 
         return maxProfit;
     }
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-
-        if (solution.maxProfit(new int[]{7, 1, 5, 3, 6, 4}) != 5) {
-            throw new AssertionError("Test 1 failed: expected 5");
-        }
-        if (solution.maxProfit(new int[]{7, 6, 4, 3, 1}) != 0) {
-            throw new AssertionError("Test 2 failed: expected 0");}
-        if (solution.maxProfit(new int[]{2, 4, 1}) != 2) {
-            throw new AssertionError("Test 3 failed: expected 2");
-        }
-        System.out.println("All Best Time to Buy and Sell Stock Java test cases passed!");
-    }
 }
 

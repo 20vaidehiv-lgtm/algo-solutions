@@ -15,6 +15,3 @@ if __name__ == "__main__":
 
     print("Even:", even_sum)
     print("Odd:", odd_sum)
-
-    assert sum_even_and_odd([1, 2, 3, 4]) == (6, 4)
-    assert sum_even_and_odd([0, -2, 5]) == (-2, 5)

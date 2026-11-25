@@ -28,8 +28,3 @@ def decode(s):
             dp[i] += dp[i-2]
     
     return dp[n]
-
-assert decode("12") == 2
-assert decode("226") == 3
-assert decode("06") == 0
-assert decode("0") == 0

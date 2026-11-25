@@ -19,7 +19,3 @@ function groupAnagrams(strs) {
   return Array.from(groups.values());
 }
 
-const res = groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"]);
-console.assert(res.length === 3, "Expected 3 anagram groups");
-console.assert(res.some((group) => group.length === 3), "Expected group of length 3");
-

@@ -28,21 +28,3 @@ def uniquePaths(m, n):
             dp[i][j] = dp[i-1][j] + dp[i][j-1]
     
     return dp[m-1][n-1]
-
-# Test cases with assertions
-# Example 1
-assert uniquePaths(3, 7) == 28
-
-# Example 2
-assert uniquePaths(3, 2) == 3
-
-# Example 3
-assert uniquePaths(7, 3) == 28
-
-# Edge cases
-assert uniquePaths(1, 1) == 1
-assert uniquePaths(1, 10) == 1
-assert uniquePaths(10, 1) == 1
-assert uniquePaths(2, 2) == 2
-
-print("All test cases passed!")

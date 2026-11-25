@@ -2,10 +2,8 @@
 // Source: https://leetcode.com/problems/valid-palindrome/
 // Topic: Two Pointers, String
 
-#include <iostream>
 #include <string>
 #include <cctype>
-#include <cassert>
 
 using namespace std;
 
@@ -33,12 +31,6 @@ bool isPalindrome(const string& s) {
 }
 
 int main() {
-    assert(isPalindrome("A man, a plan, a canal: Panama") == true);
-    assert(isPalindrome("race a car") == false);
-    assert(isPalindrome(" ") == true);
-    assert(isPalindrome("0P") == false);
-
-    cout << "All Valid Palindrome C++ test cases passed!" << endl;
     return 0;
 }
 

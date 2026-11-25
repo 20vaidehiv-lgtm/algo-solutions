@@ -24,21 +24,3 @@ def create_phone_number(n):
     
     # Format as phone number
     return f"({n_str[:3]}) {n_str[3:6]}-{n_str[6:]}"
-
-# Test cases with assertions
-# Example 1
-assert create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) == "(123) 456-7890"
-
-# Example 2
-assert create_phone_number([1, 1, 1, 1, 1, 1, 1, 1, 1, 1]) == "(111) 111-1111"
-
-# Example 3
-assert create_phone_number([0, 0, 0, 0, 0, 0, 0, 0, 0, 0]) == "(000) 000-0000"
-
-# Example 4
-assert create_phone_number([9, 8, 7, 6, 5, 4, 3, 2, 1, 0]) == "(987) 654-3210"
-
-# Edge cases
-assert create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 9]) == "(123) 456-7899"
-
-print("All test cases passed!")

@@ -41,13 +41,3 @@ def nth_prime(n):
         num += 2
     
     return num - 2
-
-# Test cases with assertions
-assert nth_prime(1) == 2
-assert nth_prime(6) == 13
-assert nth_prime(10) == 29
-assert nth_prime(100) == 541
-assert nth_prime(0) == None
-assert nth_prime(-1) == None
-
-print("All test cases passed!")

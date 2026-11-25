@@ -1257,17 +1257,6 @@
     "path": "solutions/python/practice199.py"
   },
   {
-    "name": "practice1_v2",
-    "language": "python",
-    "filename": "practice1_v2.py",
-    "problem": "N-Queens II (bitmask optimization)",
-    "source": "https://leetcode.com/problems/n-queens-ii/",
-    "topics": [
-      "Backtracking"
-    ],
-    "path": "solutions/python/practice1_v2.py"
-  },
-  {
     "name": "practice2",
     "language": "python",
     "filename": "practice2.py",
@@ -5304,5 +5293,16 @@
       "Arrays"
     ],
     "path": "solutions/java/practice8.java"
+  },
+  {
+    "name": "practice1",
+    "language": "haskell",
+    "filename": "practice1.hs",
+    "problem": "practice1",
+    "source": "",
+    "topics": [
+      "General"
+    ],
+    "path": "solutions/haskell/practice1.hs"
   }
 ]

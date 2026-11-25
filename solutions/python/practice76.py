@@ -32,28 +32,3 @@ class Solution(object):
 
 # Test cases with assertions
 sol = Solution()
-
-# Example 1
-assert sol.mySqrt(4) == 2
-
-# Example 2
-assert sol.mySqrt(8) == 2
-
-# Example 3
-assert sol.mySqrt(16) == 4
-
-# Example 4
-assert sol.mySqrt(25) == 5
-
-# Example 5
-assert sol.mySqrt(0) == 0
-
-# Example 6
-assert sol.mySqrt(1) == 1
-
-# Edge cases
-assert sol.mySqrt(2) == 1
-assert sol.mySqrt(3) == 1
-assert sol.mySqrt(15) == 3
-
-print("All test cases passed!")

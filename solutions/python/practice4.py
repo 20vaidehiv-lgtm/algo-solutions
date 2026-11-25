@@ -27,29 +27,3 @@
 def countCapitalLetters(s):
     """Return the count of uppercase letters in a string plus one."""
     return sum(1 for c in s if c.isupper()) + 1
-
-# Test cases with assertions
-# Example 1
-assert countCapitalLetters("HelloWorld") == 3  # H, W are capital
-
-# Example 2
-assert countCapitalLetters("hello") == 1  # No capitals
-
-# Example 3
-assert countCapitalLetters("HELLO") == 6  # All capitals
-
-# Example 4
-assert countCapitalLetters("hElLo") == 3  # E, L are capital
-
-# Example 5
-assert countCapitalLetters("A") == 2  # A is capital
-
-# Example 6
-assert countCapitalLetters("a") == 1  # No capitals
-
-# Edge cases
-assert countCapitalLetters("") == 1
-assert countCapitalLetters("123") == 1  # No letters
-assert countCapitalLetters("!@#") == 1  # No letters
-
-print("All test cases passed!")

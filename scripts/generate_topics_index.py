@@ -194,7 +194,7 @@ def parse_solution_file(path: Path) -> dict[str, str]:
 
 def generate_topics_markdown() -> str:
     """Build markdown catalog content from all solutions dynamically."""
-    _SKIP_SUFFIXES = {".pyc", ".pyo", ".pyd"}
+    _SKIP_SUFFIXES = {".pyc", ".pyo", ".pyd", ".class", ".o", ".out", ".exe"}
     all_files = (
         path for path in SOLUTIONS_DIR.rglob("practice*.*")
         if path.is_file()
@@ -202,7 +202,9 @@ def generate_topics_markdown() -> str:
         and "__pycache__" not in path.parts
         and path.suffix not in _SKIP_SUFFIXES
     )
-    solution_files = sorted(all_files, key=lambda item: item.name)
+    # Sort by (language_folder, filename) so files across languages with the
+    # same practice number sort deterministically.
+    solution_files = sorted(all_files, key=lambda p: (p.parent.name, p.name))
     records = [parse_solution_file(path) for path in solution_files]
 
     by_category: dict[str, list[dict[str, str]]] = defaultdict(list)
@@ -226,7 +228,8 @@ def generate_topics_markdown() -> str:
     sorted_categories = sorted(by_category.keys(), key=lambda name: (name == "Unclassified", name))
     for category in sorted_categories:
         count = len(by_category[category])
-        anchor = category.lower().replace(" ", "-").replace("/", "").replace("&", "")
+        # Build a GitHub-compatible anchor: lowercase, drop punctuation, convert every space to '-'.
+        anchor = re.sub(r"[^\w\s-]", "", category.lower()).replace(" ", "-")
         lines.append(f"- [{category}](#{anchor}) ({count})")
     lines.append("")
 
@@ -239,8 +242,9 @@ def generate_topics_markdown() -> str:
             "|---|---|---|---|",
         ])
         for item in items:
+            prob_cell = item["problem"].replace("|", "\\|")
             lines.append(
-                f"| {item['problem']} | {item['language']} | [{item['file']}]({item['path']}) | {item['status']} |"
+                f"| {prob_cell} | {item['language']} | [{item['file']}]({item['path']}) | {item['status']} |"
             )
         lines.append("")
 
@@ -255,9 +259,10 @@ def generate_topics_markdown() -> str:
             "| Problem | Language | File | Needs |",
             "|---|---|---|---|",
         ])
-        for item in sorted(incomplete, key=lambda item: item["file"]):
+        for item in sorted(incomplete, key=lambda item: (item["language"], item["file"])):
+            prob_cell = item["problem"].replace("|", "\\|")
             lines.append(
-                f"| {item['problem']} | {item['language']} | [{item['file']}]({item['path']}) | {item['status']} |"
+                f"| {prob_cell} | {item['language']} | [{item['file']}]({item['path']}) | {item['status']} |"
             )
         lines.append("")
 

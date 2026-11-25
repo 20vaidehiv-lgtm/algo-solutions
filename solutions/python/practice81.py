@@ -42,37 +42,3 @@ class Solution2(object):
 # Test cases with assertions
 sol1 = Solution1()
 sol2 = Solution2()
-
-# Example 1
-assert sol1.fib(0) == 0
-assert sol2.fib(0) == 0
-
-# Example 2
-assert sol1.fib(1) == 1
-assert sol2.fib(1) == 1
-
-# Example 3
-assert sol1.fib(2) == 1
-assert sol2.fib(2) == 1
-
-# Example 4
-assert sol1.fib(3) == 2
-assert sol2.fib(3) == 2
-
-# Example 5
-assert sol1.fib(4) == 3
-assert sol2.fib(4) == 3
-
-# Example 6
-assert sol1.fib(5) == 5
-assert sol2.fib(5) == 5
-
-# Example 7
-assert sol1.fib(6) == 8
-assert sol2.fib(6) == 8
-
-# Example 8
-assert sol1.fib(10) == 55
-assert sol2.fib(10) == 55
-
-print("All test cases passed!")

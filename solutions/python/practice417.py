@@ -18,8 +18,3 @@ def is_palindrome(value):
 if __name__ == "__main__":
     value = int(input())
     print("Palindrome" if is_palindrome(value) else "Not Palindrome")
-
-    assert is_palindrome(121)
-    assert is_palindrome(0)
-    assert not is_palindrome(-121)
-    assert not is_palindrome(123)

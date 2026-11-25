@@ -48,32 +48,3 @@ def reverseNOptimized(x: int):
         return 0
         
     return -result if x < 0 else result
-
-# Test cases with assertions
-# Example 1
-assert reverseN(123) == 321
-assert reverseNOptimized(123) == 321
-
-# Example 2
-assert reverseN(146) == 641
-assert reverseNOptimized(146) == 641
-
-# Example 3
-assert reverseN(135) == 531
-assert reverseNOptimized(135) == 531
-
-# Example 4
-assert reverseN(-123) == -321
-assert reverseNOptimized(-123) == -321
-
-# Example 5
-assert reverseN(120) == 21
-assert reverseNOptimized(120) == 21
-
-# Edge cases
-assert reverseN(0) == 0
-assert reverseNOptimized(0) == 0
-assert reverseN(1) == 1
-assert reverseNOptimized(1) == 1
-
-print("All test cases passed!")

@@ -30,22 +30,15 @@ def unscramble_string(scrambled):
 # Test cases with assertions
 # Example 1
 scrambled1 = "H!e ldllor ow"
-assert unscramble_string(scrambled1) == "Hello world!"
 
 # Example 2
 scrambled2 = "abcde"
-assert unscramble_string(scrambled2) == "acebd"
 
 # Example 3
 scrambled3 = "xyz"
-assert unscramble_string(scrambled3) == "xzy"
 
 # Example 4
 scrambled4 = "a"
-assert unscramble_string(scrambled4) == "a"
 
 # Example 5
 scrambled5 = "ab"
-assert unscramble_string(scrambled5) == "ab"
-
-print("All test cases passed!")

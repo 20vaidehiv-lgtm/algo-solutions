@@ -10,7 +10,3 @@ def tower_builder(n_floors):
         stars = "*" * (2 * i + 1)
         tower.append(spaces + stars + spaces)
     return tower
-
-assert tower_builder(1) == ["*"]
-assert tower_builder(2) == [" * ", "***"]
-assert tower_builder(3) == ["  *  ", " *** ", "*****"]

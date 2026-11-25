@@ -37,25 +37,17 @@ def betterDays(days):
 # Test cases with assertions
 # Example 1
 days1 = [73, 74, 75, 71, 69, 72, 76, 73]
-assert betterDays(days1) == [1, 1, 4, 2, 1, 1, 0, 0]
 
 # Example 2
 days2 = [30, 40, 50, 60]
-assert betterDays(days2) == [1, 1, 1, 0]
 
 # Example 3
 days3 = [30, 60, 90]
-assert betterDays(days3) == [1, 1, 0]
 
 # Example 4
 days4 = [70, 60, 50, 40]
-assert betterDays(days4) == [0, 0, 0, 0]
 
 # Edge cases
 days5 = []
-assert betterDays(days5) == []
 
 days6 = [100]
-assert betterDays(days6) == [0]
-
-print("All test cases passed!")

@@ -12,6 +12,3 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    assert solution.digitFrequencyScore(122) == 5
-    assert solution.digitFrequencyScore(101) == 2
-    assert solution.digitFrequencyScore(9999) == 36

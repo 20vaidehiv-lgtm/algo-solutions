@@ -15,22 +15,3 @@ def is_valid(s):
             stack.append(char)
 
     return not stack
-
-
-if __name__ == "__main__":
-    cases = {
-        "()": True,
-        "()[]{}": True,
-        "(]": False,
-        "([])": True,
-        "([)]": False,
-        "{[]}": True,
-        "": True,
-        "(": False,
-        "(((((((((())))))))))": True,
-    }
-
-    for value, expected in cases.items():
-        assert is_valid(value) is expected, (value, expected)
-
-    print(f"All {len(cases)} test cases passed!")

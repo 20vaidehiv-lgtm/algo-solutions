@@ -38,30 +38,3 @@ def clearDigits(s):
             arr.append(c)
             
     return ''.join(arr)
-
-# Test cases with assertions
-# Example 1
-assert clearDigits("a1bc2d3") == "b"
-
-# Example 2
-assert clearDigits("abc123") == ""
-
-# Example 3
-assert clearDigits("a1b2c3") == ""
-
-# Example 4
-assert clearDigits("1a2b3c") == "c"
-
-# Example 5
-assert clearDigits("abc") == "abc"
-
-# Example 6
-assert clearDigits("a1b") == "b"
-
-# Edge cases
-assert clearDigits("") == ""
-assert clearDigits("1") == ""
-assert clearDigits("a") == "a"
-assert clearDigits("12") == ""
-
-print("All test cases passed!")

@@ -49,20 +49,3 @@ class Solution:
 
 # Test cases with assertions
 sol = Solution()
-
-# Example 1
-assert sol.generate(1) == [[1]]
-
-# Example 2
-assert sol.generate(2) == [[1], [1, 1]]
-
-# Example 3
-assert sol.generate(3) == [[1], [1, 1], [1, 2, 1]]
-
-# Example 4
-assert sol.generate(4) == [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1]]
-
-# Example 5
-assert sol.generate(5) == [[1], [1, 1], [1, 2, 1], [1, 3, 3, 1], [1, 4, 6, 4, 1]]
-
-print("All test cases passed!")

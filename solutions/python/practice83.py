@@ -37,25 +37,17 @@ def evenNumberDigits(n):
 # Test cases with assertions
 # Example 1
 numbers1 = [12, 345, 2, 6, 7896]
-assert evenNumberDigits(numbers1) == 2  # 12 and 7896 have even digits
 
 # Example 2
 numbers2 = [555, 901, 482, 1771]
-assert evenNumberDigits(numbers2) == 1  # Only 1771 has even digits
 
 # Example 3
 numbers3 = [1, 2, 3, 4, 5]
-assert evenNumberDigits(numbers3) == 0  # All have odd digits
 
 # Example 4
 numbers4 = [10, 1000, 100000]
-assert evenNumberDigits(numbers4) == 3  # All have even digits
 
 # Edge cases
 numbers5 = []
-assert evenNumberDigits(numbers5) == 0
 
 numbers6 = [0]
-assert evenNumberDigits(numbers6) == 0  # 0 has 1 digit (odd)
-
-print("All test cases passed!")

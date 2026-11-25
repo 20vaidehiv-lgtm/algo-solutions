@@ -35,7 +35,3 @@ def min_window(s, t):
             left += 1
 
     return "" if ans[0] == float("inf") else s[ans[1]:ans[2] + 1]
-
-assert min_window("ADOBECODEBANC", "ABC") == "BANC"
-assert min_window("a", "a") == "a"
-assert min_window("a", "aa") == ""

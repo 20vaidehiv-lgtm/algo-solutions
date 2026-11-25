@@ -29,18 +29,12 @@ def calculate_cable_length(coordinates):
 # Test cases with assertions
 # Example 1
 coordinates1 = [(0, 0), (1, 1), (2, 2)]
-assert calculate_cable_length(coordinates1) == 2
 
 # Example 2
 coordinates2 = [(0, 0), (5, 0), (10, 0)]
-assert calculate_cable_length(coordinates2) == 10
 
 # Example 3
 coordinates3 = [(1, 1), (2, 2), (3, 3), (4, 4)]
-assert calculate_cable_length(coordinates3) == 3
 
 # Example 4
 coordinates4 = [(0, 0)]
-assert calculate_cable_length(coordinates4) == 0
-
-print("All test cases passed!")

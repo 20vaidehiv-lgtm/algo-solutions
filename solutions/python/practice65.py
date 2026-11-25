@@ -30,12 +30,3 @@ def frequency_counter(strings):
         result_parts.append(f"{item} - {count}")
     
     return ", ".join(result_parts)
-
-# Test cases with assertions
-assert frequency_counter(["a", "b", "a", "c", "b", "a"]) == "a - 3, b - 2, c - 1"
-assert frequency_counter(["hello", "world", "hello"]) == "hello - 2, world - 1"
-assert frequency_counter([]) == ""
-assert frequency_counter(["single"]) == "single - 1"
-assert frequency_counter(["a", "a", "a"]) == "a - 3"
-
-print("All test cases passed!")

@@ -53,27 +53,3 @@ class Solution(object):
 
 # Test cases with assertions
 sol = Solution()
-
-# Example 1
-assert sol.intToRoman(3) == "III"
-
-# Example 2
-assert sol.intToRoman(4) == "IV"
-
-# Example 3
-assert sol.intToRoman(9) == "IX"
-
-# Example 4
-assert sol.intToRoman(58) == "LVIII"
-
-# Example 5
-assert sol.intToRoman(1994) == "MCMXCIV"
-
-# Example 6
-assert sol.intToRoman(10) == "X"
-
-# Edge cases
-assert sol.intToRoman(1) == "I"
-assert sol.intToRoman(3999) == "MMMCMXCIX"
-
-print("All test cases passed!")

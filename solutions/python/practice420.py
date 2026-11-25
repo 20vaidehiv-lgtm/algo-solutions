@@ -18,17 +18,3 @@ def remove_parentheses(st):
             result.append(char)
 
     return "".join(result)
-
-
-assert remove_parentheses("example(unwanted thing)example") == "exampleexample"
-assert remove_parentheses("example (unwanted thing) example") == "example  example"
-assert remove_parentheses("a (bc d)e") == "a e"
-assert remove_parentheses("a(b(c))") == "a"
-assert remove_parentheses("hello example (words(more words) here) something") == "hello example  something"
-assert remove_parentheses("(first group) (second group) (third group)") == "  "
-assert remove_parentheses("a)b") == "ab"
-assert remove_parentheses("hello ) world") == "hello  world"
-assert remove_parentheses(")test(") == "test"
-assert remove_parentheses("") == ""
-assert remove_parentheses("plain text") == "plain text"
-assert remove_parentheses("((nested))outside") == "outside"

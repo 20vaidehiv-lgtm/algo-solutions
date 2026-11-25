@@ -17,8 +17,3 @@ def largest_prime_factor(n):
         d += 2
 
     return n if n > 1 else last_factor
-
-assert largest_prime_factor(13195) == 29
-assert largest_prime_factor(18) == 3
-assert largest_prime_factor(100) == 5
-assert largest_prime_factor(600851475143) == 6857

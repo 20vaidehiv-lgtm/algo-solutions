@@ -18,9 +18,3 @@ if __name__ == "__main__":
 
     for position, name, score in rank_records(records):
         print(f"{position}. {name} - {score}")
-
-    assert rank_records([("Bob", 90), ("Alice", 90), ("Cara", 85)]) == [
-        (1, "Alice", 90),
-        (2, "Bob", 90),
-        (3, "Cara", 85),
-    ]

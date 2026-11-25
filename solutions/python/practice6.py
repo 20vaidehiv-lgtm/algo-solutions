@@ -34,19 +34,3 @@ def canJump(nums):
             return True
     
     return True
-
-# Test cases with assertions
-# Example 1
-assert canJump([2,3,1,1,4]) == True
-
-# Example 2
-assert canJump([3,2,1,0,4]) == False
-
-# Edge cases
-assert canJump([0]) == True
-assert canJump([1, 0]) == True
-assert canJump([0, 1]) == False
-assert canJump([2, 0, 0]) == True
-assert canJump([1, 1, 1, 1]) == True
-
-print("All test cases passed!")

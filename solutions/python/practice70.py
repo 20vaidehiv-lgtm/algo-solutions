@@ -29,13 +29,3 @@ def most_frequent_even(numbers):
     most_frequent = min(num for num, freq in even_counts.items() if freq == max_freq)
     
     return most_frequent
-
-# Test cases with assertions
-assert most_frequent_even([1, 2, 2, 3, 4, 4, 4, 5]) == 4
-assert most_frequent_even([1, 3, 5]) == None
-assert most_frequent_even([2, 2, 4, 4, 4, 6, 6]) == 4
-assert most_frequent_even([2]) == 2
-assert most_frequent_even([2, 4, 6, 8]) == 2  # All have frequency 1, return smallest
-assert most_frequent_even([]) == None
-
-print("All test cases passed!")

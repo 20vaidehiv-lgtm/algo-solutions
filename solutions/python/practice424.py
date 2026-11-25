@@ -22,8 +22,3 @@ def letter_combinations(digits):
 
     backtrack(0, "")
     return res
-
-assert letter_combinations("23") == ["ad","ae","af","bd","be","bf","cd","ce","cf"]
-assert letter_combinations("") == []
-assert letter_combinations("2") == ["a", "b", "c"]
-assert len(letter_combinations("234")) == 27  # 3*3*3

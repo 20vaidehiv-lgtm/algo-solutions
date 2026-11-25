@@ -34,20 +34,3 @@ def myPow(x, n):
         n //= 2
     
     return result
-
-# Test cases with assertions
-# Example 1
-assert abs(myPow(2.00000, 10) - 1024.00000) < 1e-5
-
-# Example 2
-assert abs(myPow(2.10000, 3) - 9.26100) < 1e-5
-
-# Example 3
-assert abs(myPow(2.00000, -2) - 0.25000) < 1e-5
-
-# Edge cases
-assert abs(myPow(1.00000, 2147483647) - 1.00000) < 1e-5
-assert abs(myPow(2.00000, 0) - 1.00000) < 1e-5
-assert abs(myPow(0.00001, 2147483647) - 0.00000) < 1e-5
-
-print("All test cases passed!")

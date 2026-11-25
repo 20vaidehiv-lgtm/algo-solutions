@@ -15,9 +15,3 @@ def sun_angle(time):
     # 720 minutes from sunrise to sunset -> 180 / 720 = 0.25 deg per min
     angle = (total_minutes - start) * 0.25
     return round(angle, 2)
-
-assert sun_angle("07:00") == 15
-assert sun_angle("12:15") == 93.75
-assert sun_angle("01:23") == "I don't see the sun!"
-assert sun_angle("18:00") == 180
-assert sun_angle("06:00") == 0

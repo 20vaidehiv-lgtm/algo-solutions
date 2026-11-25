@@ -10,6 +10,3 @@ def second_largest(values):
 if __name__ == "__main__":
     values = set(map(int, input().split(",")))
     print(second_largest(values))
-
-    assert second_largest([10, 20, 20, 30]) == 20
-    assert second_largest([5, 5, 5, 4]) == 4

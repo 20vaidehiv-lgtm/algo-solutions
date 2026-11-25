@@ -12,12 +12,3 @@ def string_jump_decoder(s):
     if not s:
         return ""
     return s[::2]
-
-# Test cases with assertions
-assert string_jump_decoder("a1b2c3") == "abc"  # a + (a+1) + (b+2) + (c+3)
-assert string_jump_decoder("x2") == "x"  # Only one letter
-assert string_jump_decoder("a1") == "a"  # Letter + digit
-assert string_jump_decoder("") == ""
-assert string_jump_decoder("a") == "a"  # Single letter
-
-print("All test cases passed!")

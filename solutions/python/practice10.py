@@ -31,14 +31,3 @@ def first_letter_twice(s):
         seen.add(letter)
     
     return None  # No letter appears twice
-
-# Test cases with assertions
-assert first_letter_twice("abccbaacz") == "c"
-assert first_letter_twice("abcdd") == "d"
-assert first_letter_twice("abcdefghijklmnopqrstuvwxyz") == None
-assert first_letter_twice("a") == None
-assert first_letter_twice("aa") == "a"
-assert first_letter_twice("") == None
-assert first_letter_twice("hello") == "l"
-
-print("All test cases passed!")

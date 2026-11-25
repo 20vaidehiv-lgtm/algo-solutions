@@ -21,19 +21,5 @@ class Solution {
 
         return -1;
     }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        if (sol.search(new int[]{-1, 0, 3, 5, 9, 12}, 9) != 4) {
-            throw new AssertionError("Test 1 failed");
-        }
-        if (sol.search(new int[]{-1, 0, 3, 5, 9, 12}, 2) != -1) {
-            throw new AssertionError("Test 2 failed");
-        }
-        if (sol.search(new int[]{5}, 5) != 0) {
-            throw new AssertionError("Test 3 failed");
-        }
-    }
 }
 

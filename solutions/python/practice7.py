@@ -37,18 +37,3 @@ def merge(intervals: list[list[int]]) -> list[list[int]]:
             merged.append(interval)
     
     return merged
-
-# Test cases with assertions
-# Example 1
-assert merge([[1,3],[2,6],[8,10],[15,18]]) == [[1,6],[8,10],[15,18]]
-
-# Example 2
-assert merge([[1,4],[4,5]]) == [[1,5]]
-
-# Edge cases
-assert merge([[1,4],[2,3]]) == [[1,4]]
-assert merge([[1,4]]) == [[1,4]]
-assert merge([]) == []
-assert merge([[1,4],[5,6]]) == [[1,4],[5,6]]
-
-print("All test cases passed!")

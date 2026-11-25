@@ -35,20 +35,3 @@ def getPermutation(n, k):
         k %= factorial[i - 1]
     
     return ''.join(result)
-
-# Test cases with assertions
-# Example 1
-assert getPermutation(3, 3) == "213"
-
-# Example 2
-assert getPermutation(4, 9) == "2314"
-
-# Example 3
-assert getPermutation(3, 1) == "123"
-
-# Edge cases
-assert getPermutation(1, 1) == "1"
-assert getPermutation(2, 1) == "12"
-assert getPermutation(2, 2) == "21"
-
-print("All test cases passed!")

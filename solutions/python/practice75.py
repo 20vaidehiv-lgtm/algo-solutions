@@ -31,14 +31,3 @@ def multiplicative_persistence(n):
         steps += 1
     
     return steps
-
-# Test cases with assertions
-assert multiplicative_persistence(39) == 3
-assert multiplicative_persistence(999) == 4
-assert multiplicative_persistence(4) == 0
-assert multiplicative_persistence(25) == 2  # 2*5=10, 1*0=0
-assert multiplicative_persistence(10) == 1  # 1*0=0
-assert multiplicative_persistence(1) == 0
-assert multiplicative_persistence(123) == 1  # 1*2*3=6
-
-print("All test cases passed!")

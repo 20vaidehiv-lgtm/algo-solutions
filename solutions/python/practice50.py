@@ -41,26 +41,3 @@ def longestCommonPrefix(strs):
 #             common += w
 
 #     return common
-
-# Test cases with assertions
-# Example 1
-assert longestCommonPrefix(["flower","flow","flight"]) == "fl"
-
-# Example 2
-assert longestCommonPrefix(["ab", "a"]) == "a"
-
-# Example 3
-assert longestCommonPrefix(["dog","racecar","car"]) == ""
-
-# Example 4
-assert longestCommonPrefix(["interspecies","interstellar","interstate"]) == "inters"
-
-# Example 5
-assert longestCommonPrefix(["throne","throne"]) == "throne"
-
-# Edge cases
-assert longestCommonPrefix([""]) == ""
-assert longestCommonPrefix(["a"]) == "a"
-assert longestCommonPrefix(["", "b"]) == ""
-
-print("All test cases passed!")

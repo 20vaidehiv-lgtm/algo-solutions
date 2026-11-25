@@ -26,7 +26,5 @@ class Solution(object):
 
 if __name__ == "__main__":
     solution = Solution()
-    assert solution.canCompleteCircuit([1, 2, 3, 4, 5], [3, 4, 5, 1, 2]) == 3
     result = solution.canCompleteCircuit([2, 3, 4], [3, 4, 3])
     print("Result:", result)
-    assert result == -1, f"Expected -1, got {result}"

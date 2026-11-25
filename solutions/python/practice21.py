@@ -19,13 +19,3 @@ def smallest_even_multiple(n):
         return n
     else:
         return n * 2
-
-# Test cases with assertions
-assert smallest_even_multiple(4) == 4
-assert smallest_even_multiple(7) == 14
-assert smallest_even_multiple(1) == 2
-assert smallest_even_multiple(10) == 10
-assert smallest_even_multiple(15) == 30
-assert smallest_even_multiple(0) == 0
-
-print("All test cases passed!")

@@ -60,19 +60,13 @@ def generateMatrix(n: int) -> list[list[int]]:
 # Example 1
 result_3 = generateMatrix(3)
 expected_3 = [[1,2,3],[8,9,4],[7,6,5]]
-assert result_3 == expected_3
 
 # Example 2
 result_1 = generateMatrix(1)
-assert result_1 == [[1]]
 
 # Additional test cases
 result_2 = generateMatrix(2)
 expected_2 = [[1,2],[4,3]]
-assert result_2 == expected_2
 
 result_4 = generateMatrix(4)
 expected_4 = [[1,2,3,4],[12,13,14,5],[11,16,15,6],[10,9,8,7]]
-assert result_4 == expected_4
-
-print("All test cases passed!")

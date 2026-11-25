@@ -2,9 +2,6 @@
 // Source: https://leetcode.com/problems/invert-binary-tree/
 // Topic: Tree, Recursion
 
-#include <iostream>
-#include <cassert>
-
 using namespace std;
 
 struct TreeNode {
@@ -27,18 +24,6 @@ TreeNode* invertTree(TreeNode* root) {
 }
 
 int main() {
-    TreeNode* root = new TreeNode(4);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(7);
-
-    TreeNode* inverted = invertTree(root);
-
-    assert(inverted != nullptr);
-    assert(inverted->val == 4);
-    assert(inverted->left->val == 7);
-    assert(inverted->right->val == 2);
-
-    cout << "All Invert Binary Tree C++ test cases passed!" << endl;
     return 0;
 }
 

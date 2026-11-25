@@ -2,6 +2,7 @@
 name: Bug report
 about: Report a problem with an existing solution or repository feature
 title: "[Bug]: "
+labels: bug
 ---
 
 ## What is the problem?
